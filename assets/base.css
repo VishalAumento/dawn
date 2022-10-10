@@ -9,11 +9,11 @@
 
 @font-face {
     font-family: 'PP Agrandir';
-    src: url('PPAgrandir-Regular.woff2') format('woff2'),
-        url('PPAgrandir-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+    src: url({{'PPAgrandir-Regular.woff2'| file_url}}) format('woff2'),
+        url({{'PPAgrandir-Regular.woff'| file_ur}}) format('woff');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
 }
 
 @font-face {

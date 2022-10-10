@@ -118,6 +118,14 @@
             --font-header-family: {{ settings.font_family_header_span }};
             --font-header-weight: {{ settings.font_weight_header_span }};
            {% endif %}
+
+            {% if settings.font_family_p == 'none'%}
+            --font-header-family: {{ settings.type_body_font.family_p }}
+            --font-header-weight: {{ settings.type_header_font.weight_p }} 
+           {% else %}
+            --font-header-family: {{ settings.font_family_header_p }};
+            --font-header-weight: {{ settings.font_weight_header_p }};
+           {% endif %}
     
        
           --font-body-style: {{ settings.type_body_font.style }};

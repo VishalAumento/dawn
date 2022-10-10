@@ -42,60 +42,60 @@
 
       :root {
 
-       {% if settings.font_family_body == 'none'%}
-          --font-body-family: {{ settings.type_body_font.family }}
-          --font-body-weight: {{ settings.type_body_font.weight }} 
-          {% else %}
+           {% if settings.font_family_body == 'none'%}
+           --font-body-family: {{ settings.type_body_font.family }}
+           --font-body-weight: {{ settings.type_body_font.weight }} 
+           {% else %}
            --font-body-family: {{ settings.font_family_body }};
            --font-body-weight: {{ settings.font_weight_body }};
-          {% endif %}
+           {% endif %}
       
-        {% comment %}
-          {% if settings.font_family_header == 'none'%}
-            --font-header-family: {{ settings.type_body_font.family }}
-            --font-header-weight: {{ settings.type_header_font.weight }} 
-           {% else %}
-            --font-header-family: {{ settings.font_family_header }};
-            --font-header-weight: {{ settings.font_weight_header }};
-          {% endif %}
-       {% endcomment %}
+            {% comment %}
+              {% if settings.font_family_header == 'none'%}
+                --font-header-family: {{ settings.type_body_font.family }}
+                --font-header-weight: {{ settings.type_header_font.weight }} 
+               {% else %}
+                --font-header-family: {{ settings.font_family_header }};
+                --font-header-weight: {{ settings.font_weight_header }};
+              {% endif %}
+           {% endcomment %}
 
         
-          {% if settings.font_family_menu == 'none'%}
-          --font-menu-family: {{ settings.type_menu_font.family }}
-          --font-menu-weight: {{ settings.type_menu_font.weight }} 
-          {% else %}
-          --font-menu-family: {{ settings.font_family_menu }};
-          --font-menu-weight: {{ settings.font_weight_menu }};
-          {% endif %}
+           {% if settings.font_family_menu == 'none'%}
+           --font-menu-family: {{ settings.type_menu_font.family }}
+           --font-menu-weight: {{ settings.type_menu_font.weight }} 
+           {% else %}
+           --font-menu-family: {{ settings.font_family_menu }};
+           --font-menu-weight: {{ settings.font_weight_menu }};
+           {% endif %}
 
 
-          {% if settings.font_family_h1 == 'none'%}
+           {% if settings.font_family_h1 == 'none'%}
             --font-header-family: {{ settings.type_body_font.family_h1 }}
             --font-header-weight: {{ settings.type_header_font.weight_h1 }} 
            {% else %}
             --font-header-family: {{ settings.font_family_header_h1 }};
             --font-header-weight: {{ settings.font_weight_header_h1 }};
-          {% endif %}
+           {% endif %}
     
           
-          {% if settings.font_family_h2 == 'none'%}
+           {% if settings.font_family_h2 == 'none'%}
             --font-header-family: {{ settings.type_body_font.family_h2 }}
             --font-header-weight: {{ settings.type_header_font.weight_h2 }} 
            {% else %}
             --font-header-family: {{ settings.font_family_header_h2 }};
             --font-header-weight: {{ settings.font_weight_header_h2 }};
-          {% endif %}
+           {% endif %}
 
-          {% if settings.font_family_h3 == 'none'%}
+           {% if settings.font_family_h3 == 'none'%}
             --font-header-family: {{ settings.type_body_font.family_h3 }}
             --font-header-weight: {{ settings.type_header_font.weight_h3 }} 
            {% else %}
             --font-header-family: {{ settings.font_family_header_h3 }};
             --font-header-weight: {{ settings.font_weight_header_h3 }};
-          {% endif %}
+           {% endif %}
 
-          {% if settings.font_family_h4 == 'none'%}
+           {% if settings.font_family_h4 == 'none'%}
             --font-header-family: {{ settings.type_body_font.family_h4 }}
             --font-header-weight: {{ settings.type_header_font.weight_h4 }} 
            {% else %}
@@ -103,21 +103,21 @@
             --font-header-weight: {{ settings.font_weight_header_h4 }};
            {% endif %}
     
-          {% if settings.font_family_h5 == 'none'%}
+           {% if settings.font_family_h5 == 'none'%}
             --font-header-family: {{ settings.type_body_font.family_h5 }}
             --font-header-weight: {{ settings.type_header_font.weight_h5 }} 
            {% else %}
             --font-header-family: {{ settings.font_family_header_h5 }};
             --font-header-weight: {{ settings.font_weight_header_h5 }};
-          {% endif %}
+           {% endif %}
 
-          {% if settings.font_family_span == 'none'%}
+           {% if settings.font_family_span == 'none'%}
             --font-header-family: {{ settings.type_body_font.family_span }}
             --font-header-weight: {{ settings.type_header_font.weight_span }} 
            {% else %}
             --font-header-family: {{ settings.font_family_header_span }};
             --font-header-weight: {{ settings.font_weight_header_span }};
-          {% endif %}
+           {% endif %}
     
        
           --font-body-style: {{ settings.type_body_font.style }};

@@ -92,10 +92,6 @@
         "info": "t:settings_schema.typography.settings.type_body_font.info"
       },
       {
-        "type": "header",
-        "content": "body"
-      },
-      {
         "type": "select",
         "id": "font_family_body",
         "label": "Font Family ",

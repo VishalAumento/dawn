@@ -117,8 +117,8 @@
         "label": "Font Family H2",
         "options": [
           {
-            "value": "ozlk",
-            "label": "Ozlk"
+            "value": "OZIK",
+            "label": "OZIK"
           },
           {
             "value": "PPAgrandir",
@@ -129,7 +129,7 @@
             "label": "None"
           }
         ],
-        "default": "ozlk"
+        "default": "OZIK"
       }
     ]
   },

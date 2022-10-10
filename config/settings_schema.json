@@ -81,26 +81,6 @@
         "info": "t:settings_schema.typography.settings.type_header_font.info"
       },
       {
-        "type": "select",
-        "id": "font_family_header_h1",
-        "label": "Font Family H1",
-        "options": [
-          {
-            "value": "ozlk",
-            "label": "Ozlk"
-          },
-          {
-            "value": "PPAgrandir",
-            "label": "PP Agrandir"
-          },
-          {
-            "value": "none",
-            "label": "None"
-          }
-        ],
-        "default": "ozlk"
-      },
-      {
         "type": "header",
         "content": "t:settings_schema.typography.settings.header__2.content"
       },
@@ -110,6 +90,10 @@
         "default": "sans-serif",
         "label": "t:settings_schema.typography.settings.type_body_font.label",
         "info": "t:settings_schema.typography.settings.type_body_font.info"
+      },
+      {
+        "type": "header",
+        "content": "H2"
       },
       {
         "type": "select",

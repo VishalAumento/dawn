@@ -114,6 +114,30 @@
           }
         ],
         "default": "OZIK"
+      },
+      {
+        "type": "header",
+        "content": "body"
+      },
+      {
+        "type": "select",
+        "id": "font_family_body",
+        "label": "Font Family ",
+        "options": [
+          {
+            "value": "OZIK",
+            "label": "OZIK"
+          },
+          {
+            "value": "PPAgrandir",
+            "label": "PP Agrandir"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ],
+        "default": "OZIK"
       }
     ]
   },

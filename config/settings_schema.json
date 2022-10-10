@@ -110,6 +110,26 @@
         "default": "sans-serif",
         "label": "t:settings_schema.typography.settings.type_body_font.label",
         "info": "t:settings_schema.typography.settings.type_body_font.info"
+      },
+      {
+        "type": "select",
+        "id": "font_family_header_h2",
+        "label": "Font Family H2",
+        "options": [
+          {
+            "value": "ozlk",
+            "label": "Ozlk"
+          },
+          {
+            "value": "PPAgrandir",
+            "label": "PP Agrandir"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ],
+        "default": "ozlk"
       }
     ]
   },

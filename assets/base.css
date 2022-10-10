@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'PP Agrandir';
-    src: url ({{'PPAgrandir-Medium.woff2'|file_url}}) format('woff2'),
-         url ({{'PPAgrandir-Medium.woff'|file_url}}) format('woff');
+    src: url({{'PPAgrandir-Medium.woff2'|file_url}}) format('woff2'),
+         url({{'PPAgrandir-Medium.woff'|file_url}}) format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;

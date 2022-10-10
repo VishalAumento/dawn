@@ -185,6 +185,30 @@
       },
       {
         "type": "header",
+        "content": "H5"
+      },
+      {
+        "type": "select",
+        "id": "font_family_h5",
+        "label": "Font Family ",
+        "options": [
+          {
+            "value": "OZIK",
+            "label": "OZIK"
+          },
+          {
+            "value": "PPAgrandir",
+            "label": "PP Agrandir"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ],
+        "default": "OZIK"
+      },
+      {
+        "type": "header",
         "content": "Span"
       },
       {

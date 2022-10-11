@@ -28,3 +28,9 @@
     text-align: center;
     justify-content: center;
 }
+.star-svg{
+  background-color:none;
+}
+.star-svg path{
+  fill: #cd9944;
+}

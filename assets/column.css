@@ -29,8 +29,8 @@
     justify-content: center;
 }
 .star-svg{
-  background-color:none;
+  background-color:#cd9944;
 }
 .star-svg path{
-  fill: #cd9944;
+  fill: none;
 }

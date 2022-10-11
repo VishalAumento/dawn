@@ -1,10 +1,12 @@
+.column_section {
+    text-align: center;
+}
 .column_star img {
     width: 30px;
     height: auto;
 }
 .column_header h2 {
     width: 100%;
-    text-align: center;
     font-size: 50px;
     line-height: 1.35;
     letter-spacing: normal;
@@ -19,5 +21,5 @@
     color: #687856;
     margin: 0;
     font-family: Sofia,sans-serif;
-    text-align: center;
+   
 }

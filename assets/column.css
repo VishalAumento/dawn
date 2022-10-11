@@ -23,3 +23,8 @@
     font-family: Sofia,sans-serif;
    
 }
+.star {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}

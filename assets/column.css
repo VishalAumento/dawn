@@ -1,3 +1,14 @@
 .column_star img {
     width: 20px;
 }
+.column_header h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    line-height: 1.35;
+    letter-spacing: normal;
+    color: #cd9944;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+    font-family: Sofia,sans-serif;
+}

@@ -87,8 +87,20 @@
     },
     "b28c1641-ac00-47d7-b258-3915ee603f45": {
       "type": "column_section",
+      "blocks": {
+        "5fa85be1-850d-447d-b476-572d9bec4f8c": {
+          "type": "images",
+          "settings": {
+            "star_images": "shopify:\/\/shop_images\/star.png"
+          }
+        }
+      },
+      "block_order": [
+        "5fa85be1-850d-447d-b476-572d9bec4f8c"
+      ],
       "settings": {
-        "header": "Quick links"
+        "header": "Quick links",
+        "line": "Quick links"
       }
     }
   },

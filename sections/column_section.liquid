@@ -1,4 +1,4 @@
-{{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
+{{ 'column.css' | asset_url | stylesheet_tag }}
 
 
 
@@ -13,10 +13,22 @@
 
 
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+ {
+  "name": "Feedback slider",
+  "tag": "section",
+  "settings": [
+    
+  ],
+  
+  "presets": [
+     {
+       "name": "Feedback slider",
+       "settings": {
+          
+        }
+     }
+   ]
+}
 {% endschema %}
 
 {% stylesheet %}

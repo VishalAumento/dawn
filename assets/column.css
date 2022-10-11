@@ -105,3 +105,8 @@ polygon {
     font-family: Sofia,sans-serif;
     padding-top: 30px;
 }
+.section-2 {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0;
+}

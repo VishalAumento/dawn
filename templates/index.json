@@ -84,11 +84,18 @@
         "color_scheme": "background-1",
         "layout": "image_first"
       }
+    },
+    "b28c1641-ac00-47d7-b258-3915ee603f45": {
+      "type": "column_section",
+      "settings": {
+        "header": "Quick links"
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
-    "image_text"
+    "image_text",
+    "b28c1641-ac00-47d7-b258-3915ee603f45"
   ]
 }

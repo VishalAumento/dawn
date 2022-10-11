@@ -6,11 +6,13 @@
    <div class="column_header">
       <h3>{{ section.settings.header }}</h3>
    </div>
-       {%- for block in section.blocks -%}
+     
           <div class="column_star">
-              <img src="{{ section.settings.star_images | img_url: 'master'}}">
+              {%- for block in section.blocks -%}
+                 <img src="{{ section.settings.star_images | img_url: 'master'}}">
+              {% endfor %}
           </div>
-      {% endfor %}
+     
     <div class="column_line">
       <p>{{ section.settings.lime }}</p>
     </div>

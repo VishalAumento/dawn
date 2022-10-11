@@ -93,10 +93,17 @@
           "settings": {
             "star_images": "shopify:\/\/shop_images\/star.png"
           }
+        },
+        "01269ef3-7af1-465c-b2e3-18776bf39ccf": {
+          "type": "images",
+          "settings": {
+            "star_images": "shopify:\/\/shop_images\/star.png"
+          }
         }
       },
       "block_order": [
-        "5fa85be1-850d-447d-b476-572d9bec4f8c"
+        "5fa85be1-850d-447d-b476-572d9bec4f8c",
+        "01269ef3-7af1-465c-b2e3-18776bf39ccf"
       ],
       "settings": {
         "header": "Quick links",

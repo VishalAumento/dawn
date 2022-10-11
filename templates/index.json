@@ -91,31 +91,28 @@
         "5fa85be1-850d-447d-b476-572d9bec4f8c": {
           "type": "images",
           "settings": {
-            "star_images": "shopify:\/\/shop_images\/star.png"
           }
         },
         "01269ef3-7af1-465c-b2e3-18776bf39ccf": {
           "type": "images",
           "settings": {
-            "star_images": "shopify:\/\/shop_images\/star.png"
           }
         },
         "a9019422-7343-4e92-8093-d8a6a9faba63": {
           "type": "images",
           "settings": {
-            "star_images": "shopify:\/\/shop_images\/star.png"
           }
         },
         "98193655-ed9e-47c8-8fdf-4c994934e286": {
           "type": "images",
+          "disabled": true,
           "settings": {
-            "star_images": "shopify:\/\/shop_images\/star.png"
           }
         },
         "4d7fefd1-b595-4dcb-a272-5dd5933dbcf6": {
           "type": "images",
+          "disabled": true,
           "settings": {
-            "star_images": "shopify:\/\/shop_images\/star.png"
           }
         }
       },
@@ -131,7 +128,10 @@
         "line": "Here’s just a taste of what our customers have to say about FOND",
         "head": "“I’M TOTALLY HOOKED ON THIS NEW BONE BROTH FROM FOND.",
         "head_text": "I love all the different blends they have, like Firstade, Stressless, and Youth Tonic, that make it easy and delicious to use food as medicine. This is something I’ll always have on hand in my pantry to support my gut health, immunity, and more.”",
-        "footer_header": "DR. MARK HYMAN"
+        "footer_header": "DR. MARK HYMAN",
+        "head-section": "Quick links",
+        "head_text_section": "Quick links",
+        "footer_header_section": "Quick links"
       }
     }
   },

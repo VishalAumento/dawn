@@ -18,8 +18,8 @@
 
 @font-face {
     font-family: 'PP Agrandir';
-    src: url('PPAgrandir-Heavy.woff2') format('woff2'),
-        url('PPAgrandir-Heavy.woff') format('woff');
+    src: url({{'PPAgrandir-Heavy.woff2'|file_url}}) format('woff2'),
+        url({{'PPAgrandir-Heavy.woff'|file_url}}) format('woff');
     font-weight: 800;
     font-style: normal;
     font-display: swap;
@@ -27,8 +27,8 @@
 
 @font-face {
     font-family: 'PP Agrandir';
-    src: url('PPAgrandir-Light.woff2') format('woff2'),
-        url('PPAgrandir-Light.woff') format('woff');
+    src: url({{'PPAgrandir-Light.woff2'|file_url}}) format('woff2'),
+        url({{'PPAgrandir-Light.woff'|file_url}}) format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -36,8 +36,8 @@
 
 @font-face {
     font-family: 'PP Agrandir Text';
-    src: url('PPAgrandirText-Bold.woff2') format('woff2'),
-        url('PPAgrandirText-Bold.woff') format('woff');
+    src: url({{'PPAgrandirText-Bold.woff2'|file_url}}) format('woff2'),
+        url({{'PPAgrandirText-Bold.woff'|file_url}}) format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -51,8 +51,8 @@
 
 @font-face {
     font-family: 'OZIK';
-    src: url('OZIK-Regular.woff2') format('woff2'),
-        url('OZIK-Regular.woff') format('woff');
+    src: url({{'OZIK-Regular.woff2'|file_url}}) format('woff2'),
+        url({{'OZIK-Regular.woff'|file_url}}) format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -60,8 +60,8 @@
 
 @font-face {
     font-family: 'OZIK';
-    src: url('OZIK-Black.woff2') format('woff2'),
-        url('OZIK-Black.woff') format('woff');
+    src: url({{'OZIK-Black.woff2'|file_url}}) format('woff2'),
+        url({{'OZIK-Black.woff'|file_url}}) format('woff');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -69,8 +69,8 @@
 
 @font-face {
     font-family: 'OZIK';
-    src: url('OZIK-Bold.woff2') format('woff2'),
-        url('OZIK-Bold.woff') format('woff');
+    src: url({{'OZIK-Bold.woff2'|file_url}}) format('woff2'),
+        url({{'OZIK-Bold.woff'|file_url}}) format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -78,8 +78,8 @@
 
 @font-face {
     font-family: 'OZIK';
-    src: url('OZIK-Medium.woff2') format('woff2'),
-        url('OZIK-Medium.woff') format('woff');
+    src: url({{'OZIK-Medium.woff2'|file_url}}) format('woff2'),
+        url({{'OZIK-Medium.woff'|file_url}}) format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;

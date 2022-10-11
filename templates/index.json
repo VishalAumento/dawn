@@ -99,15 +99,34 @@
           "settings": {
             "star_images": "shopify:\/\/shop_images\/star.png"
           }
+        },
+        "a9019422-7343-4e92-8093-d8a6a9faba63": {
+          "type": "images",
+          "settings": {
+            "star_images": "shopify:\/\/shop_images\/star.png"
+          }
+        },
+        "98193655-ed9e-47c8-8fdf-4c994934e286": {
+          "type": "images",
+          "settings": {
+          }
+        },
+        "4d7fefd1-b595-4dcb-a272-5dd5933dbcf6": {
+          "type": "images",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "5fa85be1-850d-447d-b476-572d9bec4f8c",
-        "01269ef3-7af1-465c-b2e3-18776bf39ccf"
+        "01269ef3-7af1-465c-b2e3-18776bf39ccf",
+        "a9019422-7343-4e92-8093-d8a6a9faba63",
+        "98193655-ed9e-47c8-8fdf-4c994934e286",
+        "4d7fefd1-b595-4dcb-a272-5dd5933dbcf6"
       ],
       "settings": {
         "header": "OVER 3,000 5-STAR REVIEWS",
-        "line": "Quick links"
+        "line": "Here’s just a taste of what our customers have to say about FOND"
       }
     }
   },

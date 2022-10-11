@@ -44,13 +44,13 @@
       </div>
     
     <div class="head-2">
-     <h3>{{ section.settings.head}}</h3>
+     <h3>{{ section.settings.head-section}}</h3>
     </div>
     <div class="head-2">
-     <p>{{ section.settings.head_text}}</p>
+     <p>{{ section.settings.head_text_section}}</p>
     </div>
     <div class="footer_head-2">
-      <h3>{{ section.settings.footer_header }}</h3>
+      <h3>{{ section.settings.footer_header_section }}</h3>
     </div>
   {% endfor %}
   </div>
@@ -99,6 +99,24 @@
     {
       "type": "text",
       "id": "footer_header",
+      "label": "Heading",
+      "default": "Quick links"
+    },
+    {
+      "type": "text",
+      "id": "head-section",
+      "label": "Heading",
+      "default": "Quick links"
+    },
+    {
+      "type": "text",
+      "id": "head_text_section",
+      "label": "Heading",
+      "default": "Quick links"
+    },
+    {
+      "type": "text",
+      "id": "footer_header_section",
       "label": "Heading",
       "default": "Quick links"
     }

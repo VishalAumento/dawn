@@ -1,5 +1,6 @@
 .column_star img {
-    width: 20px;
+    width: 30px;
+    height: auto;
 }
 .column_header h2 {
     width: 100%;

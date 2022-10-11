@@ -51,3 +51,9 @@ polygon {
     margin: 0 auto;
     color: #687856;
 }
+.column_section {
+    text-align: center;
+    padding: 40px 0px;
+    border-top: 4px dotted #cd9944;
+    border-bottom: 4px dotted #cd9944;
+}

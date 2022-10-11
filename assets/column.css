@@ -1,7 +1,7 @@
 .column_section {
     text-align: center;
 }
-.column_star img {
+.column_star svg {
     width: 30px;
     height: auto;
 }

@@ -9,7 +9,7 @@
     {% if section.settings.column_star != blank  %}
        {%- for block in section.blocks -%}
       <div class="column_star">
-         
+          <img src="{{ section.settings.star_images | img_url: 'master'}}">
       </div>
         {% endfor %}
      {% endif %}

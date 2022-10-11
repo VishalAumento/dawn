@@ -28,9 +28,6 @@
     text-align: center;
     justify-content: center;
 }
-.star-svg{
-  background-color:#cd9944;
-}
-.star-svg path{
-  fill: none;
+polygon {
+  fill:#cd9944;
 }

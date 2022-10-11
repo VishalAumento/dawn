@@ -12,3 +12,11 @@
     text-transform: uppercase;
     font-family: Sofia,sans-serif;
 }
+.column_line {
+    font-size: 24px;
+    font-weight: 700;
+    color: #687856;
+    margin: 0;
+    font-family: Sofia,sans-serif;
+    text-align: center;
+}

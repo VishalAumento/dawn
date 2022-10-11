@@ -115,6 +115,7 @@
         "4d7fefd1-b595-4dcb-a272-5dd5933dbcf6": {
           "type": "images",
           "settings": {
+            "star_images": "shopify:\/\/shop_images\/star.png"
           }
         }
       },

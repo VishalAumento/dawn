@@ -3,9 +3,9 @@
 <div class="makedo_section">
 <div class="wrapper">
      <div class="makedo_headr">
-    {% if section.settings.header != blank  %}
-    <h3>{{ section.settings.header }}</h3>
-    {% endif %}
+      {% if section.settings.header != blank  %}
+        <h3>{{ section.settings.header }}</h3>
+      {% endif %}
     </div>
    <div class="column_section">
    {%- for block in section.blocks -%}

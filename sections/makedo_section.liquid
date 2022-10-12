@@ -16,12 +16,12 @@
       {%- for block in section.blocks -%}
           <div class="img_section">
             <div class="column_img">
-              {% if section.settings.img != blank  %}
+              {% if block.settings.img != blank  %}
                <img src="{{ block.settings.img | img_url: 'master'}}">
               {% endif %}
             </div>
            <div class="colum_text">
-              {% if section.settings.text != blank  %}
+              {% if block.settings.text != blank  %}
                <h3>{{ block.settings.text }}</h3>
              {% endif %}
            </div>

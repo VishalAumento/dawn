@@ -10,10 +10,10 @@
   {%- for block in section.blocks -%}
       <div class="column_section">
          <div class="column_img">
-           <img src="{{ block.settings.background_images | img_url: 'master'}}">
+           <img src="{{ block.settings.img | img_url: 'master'}}">
          </div>
          <div class="colum_text">
-          <h3>{{ block.settings.img }}</h3>
+          <h3>{{ block.settings.text }}</h3>
          </div>
       </div>
    {% endfor %}
@@ -45,7 +45,24 @@
     "default": "Quick links"
   }
   ],
-  
+  "blocks": [
+  {
+  "type": "images",
+  "name": "Images",
+  "settings": [
+       {
+      "type": "image_picker",
+      "id": "img",
+      "label": "Image"
+    },
+     {
+      "type": "image_picker",
+      "id": "text",
+      "label": "Text"
+    }
+    ] 
+  }
+],
   "presets": [
      {
        "name": "makedo",

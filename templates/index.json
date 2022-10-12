@@ -165,7 +165,8 @@
         "f9292a24-2547-41d8-beeb-47d46a73ee37": {
           "type": "images",
           "settings": {
-            "text": "Quick links"
+            "img": "shopify:\/\/shop_images\/thumbnail.png",
+            "text": "Find"
           }
         }
       },

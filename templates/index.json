@@ -162,6 +162,7 @@
     "2489b445-7b6b-4c88-b061-c9f4359371c5": {
       "type": "makedo_section",
       "settings": {
+        "background_images": "shopify:\/\/shop_images\/Janella_Horne_200x_ee2b74b1-fed3-45f6-b4d2-b0d2ac2a1365.webp",
         "header": "How it Works"
       }
     }

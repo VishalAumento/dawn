@@ -168,7 +168,7 @@
           "settings": {
             "img": "shopify:\/\/shop_images\/client-img-10-hover.png",
             "text": "Find",
-            "paragraph": ""
+            "paragraph": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget pretium purus. Morbi eu vulputate mi, vestibulum.<\/p>"
           }
         },
         "f0f35606-a082-456c-b8b8-b489ee5dfcda": {

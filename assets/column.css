@@ -100,3 +100,8 @@
     display: flex;
     justify-content: center;
 }
+.two_column {
+    width: 33.33%;
+    padding: 30px;
+    text-align: center;
+}

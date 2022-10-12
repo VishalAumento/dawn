@@ -30,6 +30,7 @@
   </div>
 
   <div class="section-2">
+    {%- for block in section.blocks -%}
     <div class="two_column">
       <div class="star_section">
          {%- for block in section.blocks -%}
@@ -53,6 +54,7 @@
      </div>
      
     </div>
+    {% endfor %}
   </div>
 </section>
 

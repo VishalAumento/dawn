@@ -33,3 +33,6 @@
 .star-svg path{
   fill: #cd9944;
 }
+.section-2 {
+    display: flex;
+}

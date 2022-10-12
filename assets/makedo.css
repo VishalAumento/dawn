@@ -56,9 +56,10 @@
     color: #fff;
 }
 .paragraph_section {
-    border: 2px dashed #fff;
-    border-radius: 132px;
+    /* border: 2px dashed #fff; */
+    /* border-radius: 132px; */
+    /* border-left: none; */
+    /* border-right: none; */
+    border-top: 2px dashed;
+    border-bottom: 2px dashed;
 }
-/* .paragraph_section {
-    padding-top: 30px;
-} */

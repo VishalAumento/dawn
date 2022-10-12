@@ -104,6 +104,9 @@
     width: 33.33%;
     padding: 30px;
     text-align: center;
+    border-right: 4px dotted;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .two_column.border {
     border-right: 4px dotted #cd9944;

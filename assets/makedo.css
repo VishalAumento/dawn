@@ -21,3 +21,13 @@
     justify-content: space-around;
     /* gap: 40px; */
 }
+.colum_text {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 95%;
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+}

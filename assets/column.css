@@ -120,11 +120,13 @@
     margin-top: 30px;
 }
 
-
-.two_column {
+@media screen and (max-width: 768px){
+  .two_column {
     width: 100%;
 }
-.section-2 {
+  .section-2 {
     flex-direction: column;
    
 }
+}
+

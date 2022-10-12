@@ -37,7 +37,11 @@
 </div>
 
 {% style %}
-
+ .background_img{
+     {% if section.settings.background_images != blank  %}
+     <img src="{{ section.settings.background_images | img_url: 'master'}}">
+    {% endif %}
+ }
   
 {% endstyle %}
 

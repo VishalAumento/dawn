@@ -158,12 +158,18 @@
         "head_text_section": "Quick links",
         "footer_header_section": "Quick links"
       }
+    },
+    "2489b445-7b6b-4c88-b061-c9f4359371c5": {
+      "type": "makedo_section",
+      "settings": {
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
     "image_text",
-    "b28c1641-ac00-47d7-b258-3915ee603f45"
+    "b28c1641-ac00-47d7-b258-3915ee603f45",
+    "2489b445-7b6b-4c88-b061-c9f4359371c5"
   ]
 }

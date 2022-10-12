@@ -37,7 +37,8 @@
 }
 .section-2 {
     display: flex;
-    background: #FAEEDE
+    background: #FAEEDE;
+    justify-content: space-between;
 }
 .star_section {
     display: flex;

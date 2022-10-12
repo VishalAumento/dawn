@@ -105,3 +105,10 @@
     padding: 30px;
     text-align: center;
 }
+.two_column.border {
+    border-right: 4px dotted #cd9944;
+    border-left: 4px dotted #cd9944;
+    align-items: center;
+    margin-top: 30px;
+}
+

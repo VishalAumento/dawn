@@ -4,7 +4,6 @@
     border-bottom: 4px dotted #cd9944;
     border-top: 4px dotted #cd9944;
     background: #FAEEDE;
-    margin: 0px 30px;
 }
 .column_star svg {
     width: 30px;
@@ -133,6 +132,9 @@
   .section-2 {
     flex-direction: column;
       margin: 30px;
+}
+  .column_section {
+    margin: 0px 30px;
 }
 }
 

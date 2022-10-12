@@ -108,6 +108,9 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
+.two_column:last-child{
+  border-right:none;
+}
 .two_column.border {
     border-right: 4px dotted #cd9944;
     border-left: 4px dotted #cd9944;

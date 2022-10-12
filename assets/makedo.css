@@ -54,6 +54,10 @@
 .makedo_headr h3 {
     color: #fff;
 }
+.paragraph_section {
+    border: 2px dashed #fff;
+    border-radius: 132px;
+}
 /* .paragraph_section {
     padding-top: 30px;
 } */

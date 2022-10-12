@@ -16,7 +16,7 @@
 .background_img {
     width: 100%;
 }
-.column_sec {
+.column_section {
     display: flex;
     justify-content: space-around;
     /* gap: 40px; */

@@ -2,12 +2,12 @@
 
 <div class="makedo_section">
 <div class="wrapper">
-  <div class="makedo_headr">
+   <div class="column_section">
+    <div class="makedo_headr">
     {% if section.settings.header != blank  %}
     <h3>{{ section.settings.header }}</h3>
     {% endif %}
-  </div>
-  <div class="column_section">
+    </div>
     {%- for block in section.blocks -%}
         <div class="img_section">
           <div class="column_img">

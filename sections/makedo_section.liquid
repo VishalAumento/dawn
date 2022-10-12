@@ -1,47 +1,45 @@
 {{ 'makedo.css' | asset_url | stylesheet_tag }}
 
 <div class="makedo_section">
-    <div class="background_img">
-      {% if section.settings.background_images != blank  %}
-      <img src="{{ section.settings.background_images | img_url: 'master'}}">
-      {% endif %}
-    </div>
-  <div class="wrapper">
-    <div class="makedo_headr">
-      {% if section.settings.header != blank  %}
-      <h3>{{ section.settings.header }}</h3>
-      {% endif %}
-    </div>
-    <div class="column_sec">
-      {%- for block in section.blocks -%}
-          <div class="img_section">
-            <div class="column_img">
-              {% if block.settings.img != blank  %}
-               <img src="{{ block.settings.img | img_url: 'master'}}">
-              {% endif %}
-            </div>
-           <div class="colum_text">
-              {% if block.settings.text != blank  %}
-               <h3>{{ block.settings.text }}</h3>
-             {% endif %}
-           </div>
+  <div class="background_img">
+    {% if section.settings.background_images != blank  %}
+     <img src="{{ section.settings.background_images | img_url: 'master'}}">
+    {% endif %}
+  </div>
+<div class="wrapper">
+  <div class="makedo_headr">
+    {% if section.settings.header != blank  %}
+    <h3>{{ section.settings.header }}</h3>
+    {% endif %}
+  </div>
+  <div class="column_sec">
+    {%- for block in section.blocks -%}
+        <div class="img_section">
+          <div class="column_img">
+            {% if block.settings.img != blank  %}
+             <img src="{{ block.settings.img | img_url: 'master'}}">
+            {% endif %}
           </div>
-       {% endfor %}
-   </div>
-
-    <div class="text_section">
-        {%- for block in section.blocks -%}
-      <div class="collumn">
-        <div class="paragraph_section">
-           <p>{{ block.settings.paragraph }}</p>
+         <div class="colum_text">
+            {% if block.settings.text != blank  %}
+             <h3>{{ block.settings.text }}</h3>
+           {% endif %}
+         </div>
         </div>
+     {% endfor %}
+ </div>
+
+  <div class="text_section">
+      {%- for block in section.blocks -%}
+    <div class="collumn">
+      <div class="paragraph_section">
+         <p>{{ block.settings.paragraph }}</p>
       </div>
-    {% endfor %}
     </div>
-   
+  {% endfor %}
   </div>
  
-  
+</div>
 </div>
 
 
@@ -54,54 +52,54 @@
 
 
 {% schema %}
+{
+"name": "maked",
+"tag": "section",
+"settings": [
   {
-  "name": "maked",
-  "tag": "section",
-  "settings": [
-    {
-      "type": "image_picker",
-      "id": "background_images",
-      "label": "image"
-    },
-    {
-    "type": "text",
-    "id": "header",
-    "label": "Heading",
-    "default": "Quick links"
-  }
-  ],
-  "blocks": [
+    "type": "image_picker",
+    "id": "background_images",
+    "label": "image"
+  },
   {
-  "type": "images",
-  "name": "Images",
-  "settings": [
-       {
-      "type": "image_picker",
-      "id": "img",
-      "label": "Image"
-    },
-     {
-    "type": "text",
-    "id": "text",
-    "label": "Text",
-    "default": "Quick links"
-   },
-    {
-      "type": "richtext",
-      "id": "paragraph",
-      "label": "Paragraph"
-    }
-    ] 
-  }
+  "type": "text",
+  "id": "header",
+  "label": "Heading",
+  "default": "Quick links"
+}
 ],
-  "presets": [
+"blocks": [
+{
+"type": "images",
+"name": "Images",
+"settings": [
      {
-       "name": "makedo",
-       "settings": {
-          
-        }
-     }
-   ]
+    "type": "image_picker",
+    "id": "img",
+    "label": "Image"
+  },
+   {
+  "type": "text",
+  "id": "text",
+  "label": "Text",
+  "default": "Quick links"
+ },
+  {
+    "type": "richtext",
+    "id": "paragraph",
+    "label": "Paragraph"
+  }
+  ] 
+}
+],
+"presets": [
+   {
+     "name": "makedo",
+     "settings": {
+        
+      }
+   }
+ ]
 }
 {% endschema %}
 

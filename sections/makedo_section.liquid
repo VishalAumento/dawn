@@ -30,10 +30,10 @@
    </div>
 
     <div class="text_section">
-        {%- for block in section.blocks -%}
+      {%- for block in section.blocks -%}
       <div class="collumn">
-        <div class="peregraph_section">
-         <p>{{ block.settings.peregraph }}</p>
+        <div class="paragraph_section">
+           <p>{{ block.settings.paragraph }}</p>
         </div>
       </div>
     {% endfor %}
@@ -85,7 +85,12 @@
     "id": "text",
     "label": "Text",
     "default": "Quick links"
-   }
+   },
+    {
+      "type": "richtext",
+      "id": "paragraph",
+      "label": "Paragraph"
+    }
     ] 
   }
 ],

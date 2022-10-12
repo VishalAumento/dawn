@@ -34,7 +34,7 @@
 </div>
 
 {% style %}
-.makedo_section {       
+.section-{{ section.id }} .makedo_section {       
   background-image: url({{ section.settings.background_images | img_url: 'master'}});
 }
 {% endstyle %}

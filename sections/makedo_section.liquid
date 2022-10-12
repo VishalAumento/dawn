@@ -30,7 +30,7 @@
    </div>
 
     <div class="text_section">
-      {%- for block in section.blocks -%}
+        {%- for block in section.blocks -%}
       <div class="collumn">
         <div class="paragraph_section">
            <p>{{ block.settings.paragraph }}</p>
@@ -85,22 +85,13 @@
     "id": "text",
     "label": "Text",
     "default": "Quick links"
-   }
-    
-    ] 
-  }
-],
- "blocks": [
-  {
-  "type": "images",
-  "name": "Images",
-  "settings": [
-       {
+   },
+    {
       "type": "richtext",
       "id": "paragraph",
       "label": "Paragraph"
     }
-      ] 
+    ] 
   }
 ],
   "presets": [

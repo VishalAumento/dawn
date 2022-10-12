@@ -1,15 +1,15 @@
 {{ 'makedo.css' | asset_url | stylesheet_tag }}
 
 <div class="makedo_section">
-  <div class="background_img">
+  <div class="wrapper">
+     <div class="background_img">
       <img src="{{ section.settings.background_images | img_url: 'master'}}">
-  </div>
-  <div class="makedo_headr">
-    <h3>{{ section.settings.header }}</h3>
-  </div>
-  
-      <div class="column_sec">
-        {%- for block in section.blocks -%}
+    </div>
+    <div class="makedo_headr">
+      <h3>{{ section.settings.header }}</h3>
+    </div>
+    <div class="column_sec">
+      {%- for block in section.blocks -%}
           <div class="img_section">
             <div class="column_img">
              <img src="{{ block.settings.img | img_url: 'master'}}">
@@ -18,8 +18,10 @@
              <h3>{{ block.settings.text }}</h3>
            </div>
           </div>
-         {% endfor %}
-      </div>
+       {% endfor %}
+   </div>
+  </div>
+ 
   
 </div>
 

@@ -161,6 +161,17 @@
     },
     "2489b445-7b6b-4c88-b061-c9f4359371c5": {
       "type": "makedo_section",
+      "blocks": {
+        "f9292a24-2547-41d8-beeb-47d46a73ee37": {
+          "type": "images",
+          "settings": {
+            "text": "Quick links"
+          }
+        }
+      },
+      "block_order": [
+        "f9292a24-2547-41d8-beeb-47d46a73ee37"
+      ],
       "settings": {
         "background_images": "shopify:\/\/shop_images\/Group_1051.png",
         "header": "How it Works"

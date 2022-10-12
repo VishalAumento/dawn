@@ -16,10 +16,14 @@
       {%- for block in section.blocks -%}
           <div class="img_section">
             <div class="column_img">
-             <img src="{{ block.settings.img | img_url: 'master'}}">
+              {% if section.settings.img != blank  %}
+               <img src="{{ block.settings.img | img_url: 'master'}}">
+              {% endif %}
             </div>
            <div class="colum_text">
-             <h3>{{ block.settings.text }}</h3>
+              {% if section.settings.text != blank  %}
+               <h3>{{ block.settings.text }}</h3>
+             {% endif %}
            </div>
           </div>
        {% endfor %}
@@ -27,7 +31,9 @@
     <div class="column_text">
       {%- for block in section.blocks -%}
            <div class="text_section">
+            {% if section.settings.paragraph != blank  %}
              <p>{{ block.settings.paragraph }}</p>
+            {% endif %}
            </div>
        {% endfor %}
     </div>

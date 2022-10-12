@@ -26,6 +26,15 @@
     color: #687856;
     font-family: Sofia,sans-serif;
 }
+.head_two_text h2 {
+    width: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+    color: #687856;
+    font-family: Sofia,sans-serif;
+}
 .column_line {
     font-size: 24px;
     font-weight: 700;

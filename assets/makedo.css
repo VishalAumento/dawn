@@ -12,3 +12,8 @@
 .background_img {
     width: 100%;
 }
+.column_sec {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}

@@ -99,6 +99,7 @@
 .star_section {
     display: flex;
     justify-content: center;
+    padding: 30px 0px;
 }
 .two_column {
     width: 33.33%;

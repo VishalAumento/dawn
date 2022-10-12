@@ -23,7 +23,7 @@
     <div class="column_text">
       {%- for block in section.blocks -%}
            <div class="text_section">
-             <p>{{ block.settings.peregraph }}</p>
+             <p>{{ block.settings.paragraph }}</p>
            </div>
        {% endfor %}
     </div>
@@ -73,7 +73,12 @@
     "id": "text",
     "label": "Text",
     "default": "Quick links"
-   }
+   },
+    {
+      "type": "richtext",
+      "id": "paragraph",
+      "label": "Paragraph"
+    }
     ] 
   }
 ],

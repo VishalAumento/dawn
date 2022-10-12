@@ -1,3 +1,7 @@
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+}
 .makedo_headr h3 {
     font-family: Proxima Nova;
     font-size: 40px;

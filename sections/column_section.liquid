@@ -42,13 +42,13 @@
       </div>
      <div class="text_section">
        <div class="head_two_text">
-          <h2>{{ section.settings.hear_two_head }}</h2>
+          <h2>{{ block.settings.hear_two_head }}</h2>
        </div>
        <div class="head_two_title">
-          <p>{{ section.settings.hear_two_style }}</p>
+          <p>{{ block.settings.hear_two_style }}</p>
        </div>
        <div class="head_header">
-         <h3>{{ section.settings.header_text }}</h3>
+         <h3>{{ block.settings.header_text }}</h3>
        </div>
      </div>
      
@@ -125,7 +125,24 @@
   "type": "images",
   "name": "Images",
   "settings": [
-     
+     {
+      "type": "text",
+      "id": "hear_two_head",
+      "label": "Heading",
+      "default": "Quick links"
+    },
+    {
+      "type": "text",
+      "id": "hear_two_style",
+      "label": "Heading",
+      "default": "Quick links"
+    },
+    {
+      "type": "text",
+      "id": "header_text",
+      "label": "Heading",
+      "default": "Quick links"
+    }
   ] 
   }
 ],

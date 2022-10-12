@@ -2,7 +2,7 @@
 
 <div class="makedo_section">
   <div class="background_img">
-      <img src="{{ section.settings.banner_images | img_url: 'master'}}">
+      <img src="{{ section.settings.background_images | img_url: 'master'}}">
   </div>
   <div class="makedo_headr">
     <h3>{{ section.settings.header }}</h3>
@@ -24,6 +24,11 @@
   "name": "maked",
   "tag": "section",
   "settings": [
+    {
+      "type": "image_picker",
+      "id": "background_images",
+      "label": "image"
+    },
     {
     "type": "text",
     "id": "header",

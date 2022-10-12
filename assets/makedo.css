@@ -19,10 +19,10 @@
 .column_section {
     display: flex;
     justify-content: space-around;
-    /* gap: 40px; */
+    align-items: center;
 }
 .colum_text {
-    font-family: 'Proxima Nova';
+    font-family:'Proxima Nova';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;

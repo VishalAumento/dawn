@@ -168,10 +168,18 @@
             "img": "shopify:\/\/shop_images\/thumbnail.png",
             "text": "Find"
           }
+        },
+        "f0f35606-a082-456c-b8b8-b489ee5dfcda": {
+          "type": "images",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/thumbnail.png",
+            "text": "Make"
+          }
         }
       },
       "block_order": [
-        "f9292a24-2547-41d8-beeb-47d46a73ee37"
+        "f9292a24-2547-41d8-beeb-47d46a73ee37",
+        "f0f35606-a082-456c-b8b8-b489ee5dfcda"
       ],
       "settings": {
         "background_images": "shopify:\/\/shop_images\/Group_1051.png",

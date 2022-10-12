@@ -53,6 +53,24 @@
     margin: 0 auto;
     font-family: Sofia,sans-serif;
 }
+.footer_head h3 {
+    width: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    color: #687856;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: Sofia,sans-serif;
+}
+.head_header h3 {
+   width: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    color: #687856;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: Sofia,sans-serif;
+}
 .column_line {
     font-size: 24px;
     font-weight: 700;

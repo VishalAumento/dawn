@@ -2,9 +2,7 @@
 
 <div class="makedo_section">
   <div class="background_img">
-    {% if section.settings.background_images != blank  %}
-     <img src="{{ section.settings.background_images | img_url: 'master'}}">
-    {% endif %}
+  
   </div>
 <div class="wrapper">
   <div class="makedo_headr">
@@ -38,9 +36,10 @@
 </div>
 </div>
 
+{% style %}
 
-
-
+  
+{% endstyle %}
 
 
 

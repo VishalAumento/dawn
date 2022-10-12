@@ -107,9 +107,9 @@
         "a9019422-7343-4e92-8093-d8a6a9faba63": {
           "type": "images",
           "settings": {
-            "hear_two_head": "Quick links",
-            "hear_two_style": "Quick links",
-            "header_text": "Quick links"
+            "hear_two_head": "“I’M TOTALLY HOOKED ON THIS NEW BONE BROTH FROM FOND.",
+            "hear_two_style": "I love all the different blends they have, like Firstade, Stressless, and Youth Tonic, that make it easy and delicious to use food as medicine. This is something I’ll always have on hand in my pantry to support my gut health, immunity, and more.”",
+            "header_text": "DR. MARK HYMAN"
           }
         },
         "98193655-ed9e-47c8-8fdf-4c994934e286": {
@@ -129,6 +129,15 @@
             "hear_two_style": "Quick links",
             "header_text": "Quick links"
           }
+        },
+        "fdf16ec4-045d-4ba2-ae9c-26bd60e893a5": {
+          "type": "images",
+          "disabled": true,
+          "settings": {
+            "hear_two_head": "ghjnhgg",
+            "hear_two_style": "Quick links",
+            "header_text": "Quick links"
+          }
         }
       },
       "block_order": [
@@ -136,7 +145,8 @@
         "01269ef3-7af1-465c-b2e3-18776bf39ccf",
         "a9019422-7343-4e92-8093-d8a6a9faba63",
         "98193655-ed9e-47c8-8fdf-4c994934e286",
-        "4d7fefd1-b595-4dcb-a272-5dd5933dbcf6"
+        "4d7fefd1-b595-4dcb-a272-5dd5933dbcf6",
+        "fdf16ec4-045d-4ba2-ae9c-26bd60e893a5"
       ],
       "settings": {
         "header": "OVER 3,000 5-STAR REVIEWS",

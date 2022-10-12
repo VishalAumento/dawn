@@ -7,16 +7,18 @@
   <div class="makedo_headr">
     <h3>{{ section.settings.header }}</h3>
   </div>
-  {%- for block in section.blocks -%}
+  
       <div class="column_sec">
+        {%- for block in section.blocks -%}
          <div class="column_img">
            <img src="{{ block.settings.img | img_url: 'master'}}">
          </div>
          <div class="colum_text">
           <h3>{{ block.settings.text }}</h3>
          </div>
+         {% endfor %}
       </div>
-   {% endfor %}
+  
 </div>
 
 

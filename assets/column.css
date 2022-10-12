@@ -123,6 +123,7 @@
 @media screen and (max-width: 768px){
   .two_column {
     width: 100%;
+    border-right:none;
 }
   .section-2 {
     flex-direction: column;

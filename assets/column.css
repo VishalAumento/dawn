@@ -126,6 +126,9 @@
     border-right:none;
     border-bottom:4px dotted #cb9944;
 }
+ .two_column:last-child{
+   border-bottom:4px dotted #cb9944;
+}
   .section-2 {
     flex-direction: column;
    

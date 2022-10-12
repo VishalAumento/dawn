@@ -1,9 +1,10 @@
 .column_section {
     text-align: center;
-    padding: 30px 0;
+    padding: 30px 30px;
     border-bottom: 4px dotted #cd9944;
     border-top: 4px dotted #cd9944;
     background: #FAEEDE;
+    margin: 0px 30px;
 }
 .column_star svg {
     width: 30px;

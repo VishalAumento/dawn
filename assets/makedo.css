@@ -33,7 +33,7 @@
     display: flex;
     justify-content: center;
 }
-.paragraph_section p {
+.img_section .paragraph_section p {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;

@@ -76,7 +76,7 @@
     position: absolute;
     transform: translate(50%,-40%);
 }
-.column_section .mobile_wrap:after{
+.column_section .mobile_wrap::after{
   content: "";
     position: absolute;
     bottom: -17px;

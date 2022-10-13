@@ -21,8 +21,10 @@
                <h3>{{ block.settings.text }}</h3>
              {% endif %}
            </div>
-         </div>
-       
+        </div>
+       {% endfor %}
+       {%- for block in section.blocks -%}
+       <div class="img_section mobile_wrap">
           <div class="grid-item">
              <div class="paragraph_section">
              {% if block.settings.paragraph != blank  %}

@@ -47,7 +47,6 @@
     color: #fff;
 }
 .img_section {
-    color: #fff;
     width: 25%;
    padding: 0 20px 0px 0px;
 }
@@ -59,4 +58,5 @@
      border-radius: 132px; 
      border-left: none; 
      border-right: none; 
+     color: #fff;
 }

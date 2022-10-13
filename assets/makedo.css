@@ -53,10 +53,8 @@
 .makedo_headr h3 {
     color: #fff;
 }
-.img_section .paragraph_section {
-     border: 3px dashed #fff; 
-     border-radius: 132px; 
-     border-left: none; 
-     border-right: none; 
-     color: #fff;
+.column_section.mobile_wrap {
+    border: 2px dashed;
+    border-radius: 132px;
+    color: #fff;
 }

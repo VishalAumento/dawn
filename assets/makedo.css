@@ -68,6 +68,10 @@
     background: #04B3BF;
     position: absolute;
     margin-top: -13px;
+    margin-left: auto;
+    margin-right: auto;
+    /* left: 0; */
+    /* right: 0; */
 }
 .aerro svg {
     width: 26px;

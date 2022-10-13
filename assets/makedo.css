@@ -34,7 +34,6 @@
     justify-content: center;
 }
 .paragraph_section p {
-    font-family: 'Proxima Nova';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -46,7 +45,7 @@
 .paragraph_section p {
     text-align: center;
 }
-.colum_text h3 {
+.img_section .colum_text h3 {
     color: #fff;
 }
 .img_section {
@@ -61,7 +60,3 @@
      border-left: none; 
      border-right: none; 
 }
-/* .grid:first-child{
-  border-radius:132px;
-  border-left:2px dashed;
-} */

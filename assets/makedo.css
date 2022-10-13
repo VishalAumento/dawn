@@ -50,6 +50,7 @@
 .img_section {
     width: 25%;
    padding: 0 20px 0px 0px;
+  text-align: center;
 }
 .makedo_headr h3 {
     color: #fff;
@@ -60,11 +61,13 @@
     color: #fff;
 }
 .grid-item span {
-  border-radius: 50%;
+    border-radius: 50%;
     border: 2px solid #04B3BF;
-    width: 18px;
-    height: 18px;
+    width: 20px;
+    height: 20px;
     background: #04B3BF;
+    position: absolute;
+    margin-top: -28px;
 }
 /* .mobile_wrap .img_section:before {
     content: "";

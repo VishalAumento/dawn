@@ -60,7 +60,7 @@
     border-radius: 132px;
     color: #fff;
 }
-.aerro_section span {
+.aerro_section .dot {
     border-radius: 50%;
     border: 2px solid #04B3BF;
     width: 20px;

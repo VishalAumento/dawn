@@ -69,10 +69,10 @@
     position: absolute;
     margin-top: -28px;
 }
-.aero svg {
+.aerro svg {
     width: 26px;
 }
-.aero {
+.aerro {
     position: absolute;
     transform: translate(50%, -50%);
 }

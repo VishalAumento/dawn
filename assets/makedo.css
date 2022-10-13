@@ -72,3 +72,7 @@
 .aero svg {
     width: 26px;
 }
+.aero {
+    position: absolute;
+    transform: translate(50%, -50%);
+}

@@ -77,7 +77,7 @@
     transform: translate(50%,-40%);
 }
 .column_section.mobile_wrap:after{
-     content: "";
+    content: "";
     position: absolute;
     width: 32px;
     height: 32px;

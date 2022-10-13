@@ -74,20 +74,18 @@
 }
 .aerro {
     position: absolute;
+    transform: translate(50%,-40%);
 }
-.mobile_wrap:after {
-    content: "";
+.mobile_wrap:after{
+  content: "";
     position: absolute;
-    /* bottom: -13px; */
-    left: 0;   
+    bottom: -17px;
+    left: 0;
     right: 0;
-    background-image: url ;
+    background-image: url;
     display: block;
     width: 32px;
     height: 32px;
     transform: rotate(180deg);
-    margin: 0px auto;
-    background: red;
-    transform: translate(50%, -50%%);
-    transform: translateY(81px);
+    margin: 0 auto;
 }

@@ -21,10 +21,8 @@
                <h3>{{ block.settings.text }}</h3>
              {% endif %}
            </div>
-        </div>
-       {% endfor %}
-       {%- for block in section.blocks -%}
-       <div class="img_section mobile_wrap">
+         </div>
+       
           <div class="grid-item">
              <div class="paragraph_section">
              {% if block.settings.paragraph != blank  %}
@@ -45,7 +43,7 @@
 .section-{{ section.id }} {       
   background-image: url({{ section.settings.background_images | img_url: 'master'}});
 }
-{% endstyle %}
+  {% endstyle %}
 
 
 

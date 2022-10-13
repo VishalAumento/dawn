@@ -59,3 +59,12 @@
     border-radius: 132px;
     color: #fff;
 }
+
+.img_section:before {
+    content: "";
+    border-radius: 50%;
+    border: 2px solid #04B3BF;
+    width: 18px;
+    height: 18px;
+    background: #04B3BF;
+}

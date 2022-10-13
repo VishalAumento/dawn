@@ -60,11 +60,11 @@
     color: #fff;
 }
 
-.mobile_wrap .img_section:before {
+/* .mobile_wrap .img_section:before {
     content: "";
     border-radius: 50%;
     border: 2px solid #04B3BF;
     width: 18px;
     height: 18px;
     background: #04B3BF;
-}
+} */

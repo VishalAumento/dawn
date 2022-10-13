@@ -69,11 +69,6 @@
     position: absolute;
     margin-top: -28px;
 }
-/* .mobile_wrap .img_section:before {
-    content: "";
-    border-radius: 50%;
-    border: 2px solid #04B3BF;
-    width: 18px;
-    height: 18px;
-    background: #04B3BF;
-} */
+.aero svg {
+    width: 26px;
+}

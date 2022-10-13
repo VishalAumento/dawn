@@ -30,7 +30,6 @@
     font-weight: 700;
     font-size: 32px;
     line-height: 95%;
-    /* align-items: center; */
     display: flex;
     justify-content: center;
 }
@@ -39,11 +38,9 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-}
-.img_section .column_img {
     text-align: center;
 }
-.img_section .paragraph_section p {
+.img_section .column_img {
     text-align: center;
 }
 .img_section .colum_text h3 {

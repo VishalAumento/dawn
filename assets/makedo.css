@@ -172,4 +172,9 @@ content: "";
 .moblie_makedo {
     position: relative;
 }
+.responsive {
+    border-left: 2px dashed #fff;
+    border-radius: 30px 30px;
+    margin-bottom: 20px;
+}
 }

@@ -108,10 +108,11 @@ content: "";
     display: none;
 }
 /* =====================moblie================= */
-
-.wrap {
-    display: none;
-}
-.phon_wrap_seection {
-    display: block;
+@media screen and (max-width: 768px) {
+  .wrap {
+      display: none;
+  }
+  .phon_wrap_seection {
+      display: block;
+  }
 }

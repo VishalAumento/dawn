@@ -64,10 +64,16 @@
   </div>
 </div>
   <div class="moblie_makedo">
+ 
   <div class="moblie_imges_section">
    <img src="{{ section.settings.moblie_background_images| img_url: 'master' }}" />	
   </div>
   <div class="phon_wrap">
+         <div class="makedo_headr">
+  {% if section.settings.header != blank  %}
+    <h2>{{ section.settings.header }}</h2>
+  {% endif %}
+ </div>
      <div class=" phon_wrap_seection ">
     {%- for block in section.blocks -%}
       <div class="responsive">

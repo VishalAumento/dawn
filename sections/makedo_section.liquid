@@ -6,7 +6,7 @@
   <div class="imges_section">
    <img src="{{ section.settings.background_images| img_url: 'master' }}" />	
   </div>
-<div class="wrapper">
+
    <div class="wrap_class">
   <div class="makedo_headr">
   {% if section.settings.header != blank  %}
@@ -61,7 +61,10 @@
     <h2>{{section.settings.footer }}</h2>
   </div>
 </div>  
-
+  </div>
+  <div class="imges_section">
+   <img src="{{ section.settings.background_images| img_url: 'master' }}" />	
+  </div>
   <div class="phon_wrap">
      <div class=" phon_wrap_seection ">
     {%- for block in section.blocks -%}
@@ -103,7 +106,7 @@
 
   </div>
 
-</div>
+
   </div>
   
 </div>

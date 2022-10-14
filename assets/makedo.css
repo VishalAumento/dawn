@@ -151,6 +151,6 @@ content: "";
   display:none;
 }
   .moblie_imges_section {
-    display: none;
+    display: block;
 }
 }

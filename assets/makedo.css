@@ -115,4 +115,11 @@ content: "";
   .phon_wrap_seection {
       display: block;
   }
+  .phon_wrap .column_section.mobile_wrap {
+    border: 2px dashed;
+    border-radius: 132px;
+    color: #fff;
+    position: relative;
+    border: none;
+}
 }

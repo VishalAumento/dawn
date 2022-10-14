@@ -126,6 +126,9 @@ content: "";
 .phon_wrap_seection {
     display: none;
 }
+.moblie_imges_section {
+    display: none;
+}
 /* =====================moblie================= */
 @media screen and (max-width: 998px) {
   .wrap {
@@ -146,5 +149,8 @@ content: "";
 }
 .phon_wrap_seection .mobile_wrap:after{
   display:none;
+}
+  .moblie_imges_section {
+    display: none;
 }
 }

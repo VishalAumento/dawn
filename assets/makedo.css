@@ -116,7 +116,7 @@ content: "";
       display: block;
   }
   .phon_wrap .column_section.mobile_wrap {
-/*     border: none; */
+    border: none;
 }
 .img_section {
     width: 100%;

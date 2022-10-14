@@ -129,4 +129,7 @@ content: "";
     padding: 0;
     margin: 0;
 }
+.phon_wrap_seection .mobile_wrap:after{
+  display:none;
+}
 }

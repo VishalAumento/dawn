@@ -1,8 +1,19 @@
-.wrapper {
+/* .wrapper {
   max-width: 1251px;
   margin: 0 auto;
   padding-top: 6%;
   padding-bottom: 5%;
+} */
+.wrapper {
+    max-width: 1251px;
+    margin: 0 auto;
+    /* padding-top: 6%; */
+    position: absolute;
+    /* padding-bottom: 5%; */
+    /* transform: translate(50% ,-50%); */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 .makedo_headr h2 {
   font-family: Proxima Nova;

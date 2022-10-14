@@ -125,4 +125,8 @@ content: "";
 .img_section {
     width: 100%;
 }
+.img_section .paragraph_section p {
+    padding: 0;
+    margin: 0;
+}
 }

@@ -104,7 +104,13 @@ content: "";
 .wrap {
     display: block;
 }
+.phon_wrap_seection {
+    display: none;
+}
 /* =====================moblie================= */
 .wrap {
     display: none;
+}
+.phon_wrap_seection {
+    display: block;
 }

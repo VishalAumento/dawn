@@ -19,6 +19,7 @@
 }
 .imges_section img {
     width: 100%;
+    height: auto;
 }
 .imges_section {
     position: relative;

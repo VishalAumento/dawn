@@ -29,8 +29,7 @@
   <div class="column_section mobile_wrap">
       {%- for block in section.blocks -%}
         <div class="img_section">
-            
-           <div class="aerro_section">
+            <div class="aerro_section">
            {% if block.settings.hide_dot %}
                <span class="dot"></span>
             {% endif %}
@@ -43,19 +42,14 @@
               {% endif %} 
             </div>
           <div class="grid-item">
-           
-           
              <div class="paragraph_section">
-             {% if block.settings.paragraph != blank  %}
-              <p>{{ block.settings.paragraph }}</p>
-             {% endif %}
-             
-             </div>
-          </div>
+                 {% if block.settings.paragraph != blank  %}
+                  <p>{{ block.settings.paragraph }}</p>
+                 {% endif %}
+            </div>
+         </div>
        </div>
-   
-    {% endfor %}
-
+     {% endfor %}
   </div>
 
   </div>  

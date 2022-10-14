@@ -137,7 +137,8 @@
       ],
       "settings": {
         "background_images": "shopify:\/\/shop_images\/Group_1051.png",
-        "header": "How it Works"
+        "header": "How it Works",
+        "footer": "Repeat!"
       }
     }
   },

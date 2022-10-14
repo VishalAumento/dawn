@@ -101,3 +101,8 @@ content: "";
     line-height: 17px;
     transform: rotate(6deg);
 }
+
+/* =====================moblie================= */
+.wrap {
+    display: none;
+}

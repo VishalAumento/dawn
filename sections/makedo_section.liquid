@@ -57,6 +57,52 @@
 </div>  
 
   <div class="wrap phon_wrap">
+     <div class="wrap phon_wrap ">
+    {%- for block in section.blocks -%}
+    <div class="column_section">
+       
+           <div class="img_section">
+             <div class="grid_section">
+               <div class="column_img">
+               {% if block.settings.img != blank  %}
+                <img src="{{ block.settings.img | img_url: 'master'}}">
+               {% endif %}
+             </div>
+              <div class="colum_text">
+                 {% if block.settings.text != blank  %}
+                  <h3>{{ block.settings.text }}</h3>
+                {% endif %}
+              </div>
+            </div>
+           </div>
+      </div>
+     <div class="column_section mobile_wrap">
+        
+           <div class="img_section">
+               <div class="aerro_section">
+              {% if block.settings.hide_dot %}
+                  <span class="dot"></span>
+               {% endif %}
+                {% if block.settings.hide_aerro %}
+                   <div class="aerro">
+                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                         <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></path>
+                       </svg>
+                   </div>
+                 {% endif %} 
+               </div>
+             <div class="grid-item">
+                <div class="paragraph_section">
+                    {% if block.settings.paragraph != blank  %}
+                     <p>{{ block.settings.paragraph }}</p>
+                    {% endif %}
+               </div>
+            </div>
+          </div>
+       
+     </div>
+     {% endfor %}
+</div>
 
   </div>
 

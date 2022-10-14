@@ -129,6 +129,9 @@ content: "";
 .moblie_imges_section {
     display: none;
 }
+.imges_section{
+  display:block;
+}
 /* =====================moblie================= */
 @media screen and (max-width: 998px) {
   .wrap {
@@ -152,5 +155,8 @@ content: "";
 }
   .moblie_imges_section {
     display: block;
+}
+  .imges_section{
+  display:none;
 }
 }

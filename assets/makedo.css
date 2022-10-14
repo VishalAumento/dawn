@@ -159,4 +159,7 @@ content: "";
   .imges_section{
   display:none;
 }
+  .moblie_imges_section img {
+    width: 100%;
+}
 }

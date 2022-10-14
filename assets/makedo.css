@@ -116,11 +116,7 @@ content: "";
       display: block;
   }
   .phon_wrap .column_section.mobile_wrap {
-    border: 2px dashed;
-    border-radius: 132px;
-    color: #fff;
-    position: relative;
-    border: none;
+/*     border: none; */
 }
 .img_section {
     width: 100%;

@@ -186,6 +186,7 @@ content: "";
     display: block;
 }
 .grid_item.grid_index-2 .border-right:before {
+  content: "";
     position: absolute;
     top: 75px;
     right: 0;

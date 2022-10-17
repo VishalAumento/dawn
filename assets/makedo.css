@@ -315,7 +315,5 @@ a:empty, ul:empty, dl:empty, div:empty, section:empty, article:empty, p:empty, h
     left: 0;
     right: 0;
 }
-body{
-  overflow-x: hidden!important;
-}
+
 }

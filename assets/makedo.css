@@ -193,6 +193,17 @@ content: "";
     border-right: 0;
     display: block;
 }
+.grid_item.grid_index-1 .border_right{
+  position: absolute;
+    top: 75px;
+    right: 0;
+    border: 2px dashed #fff;
+    border-radius: 0 12px;
+    width: 84px;
+    height: 98px;
+    border-left: 0;
+    border-bottom: 0;
+}
 .grid_item.grid_index-2 .border-right {
   
     position: absolute;

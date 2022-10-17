@@ -207,8 +207,16 @@ content: "";
     border-left: 0;
     border-bottom: 0;
 }
-.grid_item.grid_index-1 .border-right:after{
-  content:"";
+.grid_item.grid_index-1 .border_left:before{
+    content: "";
+    position: absolute;
+    top: auto;
+    bottom: -14px;
+    right: -2px;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-image: url(data:image/svg+xml,%3Csvg width='24' height='22' viewBox='0 0 24 22' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.3125 1L21.9988 11L12.3125 21' stroke='white' stroke-width='2.07563'/%3E%3Cpath d='M0 11L21 11' stroke='white' stroke-width='2.07563'/%3E%3C/svg%3E);
 }
 .grid_item.grid_index-2 .border-right {
   

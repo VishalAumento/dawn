@@ -315,7 +315,7 @@ a:empty, ul:empty, dl:empty, div:empty, section:empty, article:empty, p:empty, h
     position: absolute;
     left: 50%;
     /* transform: translate(-50%,-50%); */
-    top: 50%;
+/*     top: 50%; */
     top: 70px;
     left: 0;
     right: 0;

@@ -133,15 +133,10 @@ content: "";
   display:block;
 }
 .grid_item.grid_index-1 {
-   top: 75px;
     left: 0;
     border: 2px dashed #fff;
-    border-radius: 12px 0 0 12px;
-    width: 84px;
-    height: 100%;
+    border-radius: 12px;
     border-right: 0;
-    display: block;
-
 }
 /* =====================moblie================= */
 @media screen and (max-width: 998px) {

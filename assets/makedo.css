@@ -176,12 +176,12 @@ content: "";
 .grid_item.grid_index-1 .border_left:after {
     content: "";
     position: absolute;
-    top: 75px;
+    top: 205px;
     left: 0;
     border: 2px dashed #fff;
     border-radius: 12px 0 0 12px;
     width: 84px;
-    height: 30%;
+    height: 22%;
     border-right: 0;
     display: block;
 }

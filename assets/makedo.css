@@ -320,7 +320,7 @@ a:empty, ul:empty, dl:empty, div:empty, section:empty, article:empty, p:empty, h
 
 @media screen and (max-width: 580px){
   .phon_wrap_seection {
-    width: 73%;
+    width: 88%;
     margin: 0 auto;
 }
 }

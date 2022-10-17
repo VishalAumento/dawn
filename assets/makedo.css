@@ -173,7 +173,7 @@ content: "";
 .moblie_makedo {
     position: relative;
 }
-.grid_item.grid_index-1 .border_left:before {
+.grid_item.grid_index-1 .border_left:after {
     content: "";
     position: absolute;
     top: 75px;

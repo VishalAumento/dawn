@@ -263,6 +263,7 @@ content: "";
     border-left: 0;
     border-top: 0;
     border-radius: 12px 0;
+    margin-top: -21px;
 }
 .grid_item.grid_index-3 .border-right:after{
   content: "";

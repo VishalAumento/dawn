@@ -197,11 +197,11 @@ content: "";
 .grid_item.grid_index-2 .border-right:before {
     content: "";
     position: absolute;
-    top: 389px;
+    top: 75px;
     right: 0;
     border: 2px dashed #fff;
     width: 84px;
-    height: 23%;
+    height: 100%;
     border-left: 0;
     border-radius: 0 12px 12px 0;
 }

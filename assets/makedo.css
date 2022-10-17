@@ -163,13 +163,13 @@ content: "";
   .moblie_imges_section img {
     width: 100%;
 }
-.phon_wrap {
+/* .phon_wrap {
     position: absolute;
     left: 50%;
     transform: translate(-50%,-50%);
     top: 50%;
-/*     width: calc(50% - 50px); */
-}
+    
+} */
 .moblie_makedo {
     position: relative;
 }
@@ -304,5 +304,18 @@ a:empty, ul:empty, dl:empty, div:empty, section:empty, article:empty, p:empty, h
 }
  .column_section {
     padding: 20px 20px;
+}
+.phon_wrap_seection {
+    width: 50%;
+    margin: 0 auto;
+}
+  .phon_wrap {
+    position: absolute;
+    left: 50%;
+    /* transform: translate(-50%,-50%); */
+    top: 50%;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 }

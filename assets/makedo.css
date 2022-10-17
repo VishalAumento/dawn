@@ -208,17 +208,7 @@ content: "";
     border-right: 0;
     display: block;
 }
-.grid_item.grid_index-4 .border-right:before {
-    content: "";
-    position: absolute;
-    top: auto;
-    right: 0;
-    border: 2px dashed #fff;
-    width: 84px;
-    height: 23%;
-    border-left: 0;
-    border-radius: 0 12px 12px 0;
-}
+
   a:empty, ul:empty, dl:empty, div:empty, section:empty, article:empty, p:empty, h1:empty, h2:empty, h3:empty, h4:empty, h5:empty, h6:empty {
     display: block;
 }

@@ -19,8 +19,8 @@
     width: 60px;
 }
 .imges_section img {
-    width: 100%;
-    height: auto;
+    width: auto;
+/*     height: auto; */
 }
 .imges_section {
     position: relative;
@@ -132,8 +132,9 @@ content: "";
 .moblie_imges_section {
     display: none;
 }
-.imges_section{
-  display:block;
+.imges_section {
+    display: block;
+    overflow-x: hidden !important;
 }
 
 /* =====================moblie================= */

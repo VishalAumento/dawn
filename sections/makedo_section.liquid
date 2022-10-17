@@ -2,122 +2,122 @@
 
 
 <div class="section-{{ section.id }} makedo_section" >
-<div class="imges_section">
- <img src="{{ section.settings.background_images| img_url: 'master' }}" />	
-</div>
+  <div class="imges_section">
+   <img src="{{ section.settings.background_images| img_url: 'master' }}" />	
+  </div>
 
- <div class="wrap_class">
-<div class="makedo_headr">
-{% if section.settings.header != blank  %}
-  <h2>{{ section.settings.header }}</h2>
-{% endif %}
-</div>
+   <div class="wrap_class">
+  <div class="makedo_headr">
+  {% if section.settings.header != blank  %}
+    <h2>{{ section.settings.header }}</h2>
+  {% endif %}
+ </div>
 <div class="wrap">
- <div class="column_section">
- {%- for block in section.blocks -%}
-    <div class="img_section">
-      <div class="grid_section">
-        <div class="column_img">
-        {% if block.settings.img != blank  %}
-         <img src="{{ block.settings.img | img_url: 'master'}}">
-        {% endif %}
+   <div class="column_section">
+   {%- for block in section.blocks -%}
+      <div class="img_section">
+        <div class="grid_section">
+          <div class="column_img">
+          {% if block.settings.img != blank  %}
+           <img src="{{ block.settings.img | img_url: 'master'}}">
+          {% endif %}
+        </div>
+         <div class="colum_text">
+            {% if block.settings.text != blank  %}
+             <h3>{{ block.settings.text }}</h3>
+           {% endif %}
+         </div>
+       </div>
       </div>
-       <div class="colum_text">
-          {% if block.settings.text != blank  %}
-           <h3>{{ block.settings.text }}</h3>
-         {% endif %}
+   {% endfor %}
+ </div>
+<div class="column_section mobile_wrap">
+    {%- for block in section.blocks -%}
+      <div class="img_section">
+          <div class="aerro_section">
+         {% if block.settings.hide_dot %}
+             <span class="dot"></span>
+          {% endif %}
+           {% if block.settings.hide_aerro %}
+              <div class="aerro">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></path>
+                  </svg>
+              </div>
+            {% endif %} 
+          </div>
+        <div class="grid-paragraph">
+           <div class="paragraph_section">
+               {% if block.settings.paragraph != blank  %}
+                <p>{{ block.settings.paragraph }}</p>
+               {% endif %}
+          </div>
        </div>
      </div>
-    </div>
- {% endfor %}
+   {% endfor %}
 </div>
-<div class="column_section mobile_wrap">
-  {%- for block in section.blocks -%}
-    <div class="img_section">
-        <div class="aerro_section">
-       {% if block.settings.hide_dot %}
-           <span class="dot"></span>
-        {% endif %}
-         {% if block.settings.hide_aerro %}
-            <div class="aerro">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></path>
-                </svg>
-            </div>
-          {% endif %} 
-        </div>
-      <div class="grid-paragraph">
-         <div class="paragraph_section">
-             {% if block.settings.paragraph != blank  %}
-              <p>{{ block.settings.paragraph }}</p>
-             {% endif %}
-        </div>
-     </div>
-   </div>
- {% endfor %}
-</div>
-<div class="footert">
-  <h2>{{section.settings.footer }}</h2>
-</div>
+  <div class="footert">
+    <h2>{{section.settings.footer }}</h2>
+  </div>
 </div>  
-</div>
+  </div>
 </div>
 
 <div class="moblie_makedo">
-   <div class="moblie_imges_section ">
-     <img src="{{ section.settings.moblie_background_images| img_url: 'master' }}" />	
-   </div>
-<div class="phon_wrap">
-     <div class="makedo_headr">
-        {% if section.settings.header != blank  %}
-          <h2>{{ section.settings.header }}</h2>
-        {% endif %}
-      </div>
-   <div class=" phon_wrap_seection ">
-     {%- for block in section.blocks -%}
-    <div class="grid_item grid_index-{{ forloop.index }}">
-      <div class="border_left"></div>
-      <div class="column_section">
-          <div class="img_section">
-            <div class="column_img">
-                 {% if block.settings.img != blank  %}
-                  <img src="{{ block.settings.img | img_url: 'master'}}">
-                 {% endif %}
-            </div>
-            <div class="colum_text">
-               {% if block.settings.text != blank  %}
-                <h3>{{ block.settings.text }}</h3>
-              {% endif %}
-            </div>
-         </div>
+     <div class="moblie_imges_section ">
+       <img src="{{ section.settings.moblie_background_images| img_url: 'master' }}" />	
      </div>
-   
-   <div class="column_section mobile_wrap">
-        <div class="img_section">
-              <div class="paragraph_section">
-                  {% if block.settings.paragraph != blank  %}
-                   <p>{{ block.settings.paragraph }}</p>
-                  {% endif %}
-             </div>
-        
+  <div class="phon_wrap">
+       <div class="makedo_headr">
+          {% if section.settings.header != blank  %}
+            <h2>{{ section.settings.header }}</h2>
+          {% endif %}
         </div>
-    </div>
-      <div class="border-right"></div>
-    </div>
- 
-   {% endfor %}
- </div>
+     <div class=" phon_wrap_seection ">
+       {%- for block in section.blocks -%}
+      <div class="grid_item grid_index-{{ forloop.index }}">
+        <div class="border_left"></div>
+        <div class="column_section">
+            <div class="img_section">
+              <div class="column_img">
+                   {% if block.settings.img != blank  %}
+                    <img src="{{ block.settings.img | img_url: 'master'}}">
+                   {% endif %}
+              </div>
+              <div class="colum_text">
+                 {% if block.settings.text != blank  %}
+                  <h3>{{ block.settings.text }}</h3>
+                {% endif %}
+              </div>
+           </div>
+       </div>
+     
+     <div class="column_section mobile_wrap">
+          <div class="img_section">
+                <div class="paragraph_section">
+                    {% if block.settings.paragraph != blank  %}
+                     <p>{{ block.settings.paragraph }}</p>
+                    {% endif %}
+               </div>
+          
+          </div>
+      </div>
+        <div class="border-right"></div>
+      </div>
+   
+     {% endfor %}
+   </div>
 
-</div>
+  </div>
 
-</div>
-
-
+  </div>
+  
+  
 
 {% comment %}  
 {% style %}
-.border_left {       
-background-image: url(data:image/svg+xml,%3Csvg width='24' height='22' viewBox='0 0 24 22' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.3125 1L21.9988 11L12.3125 21' stroke='white' stroke-width='2.07563'/%3E%3Cpath d='M0 11L21 11' stroke='white' stroke-width='2.07563'/%3E%3C/svg%3E);
+ .border_left {       
+  background-image: url(data:image/svg+xml,%3Csvg width='24' height='22' viewBox='0 0 24 22' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.3125 1L21.9988 11L12.3125 21' stroke='white' stroke-width='2.07563'/%3E%3Cpath d='M0 11L21 11' stroke='white' stroke-width='2.07563'/%3E%3C/svg%3E);
 }
 {% endstyle %}
 
@@ -161,7 +161,7 @@ background-image: url(data:image/svg+xml,%3Csvg width='24' height='22' viewBox='
 "type": "images",
 "name": "Images",
 "settings": [
-{
+ {
 "type": "image_picker",
 "id": "img",
 "label": "Image"
@@ -181,13 +181,13 @@ background-image: url(data:image/svg+xml,%3Csvg width='24' height='22' viewBox='
 "type": "checkbox",
 "id": "hide_dot",
 "default": false,
-"label": "Show Dot"
+ "label": "Show Dot"
 },
 {
 "type": "checkbox",
 "id": "hide_aerro",
 "default": false,
-"label": "Show Aerro"
+ "label": "Show Aerro"
 }
 
 ] 
@@ -196,10 +196,10 @@ background-image: url(data:image/svg+xml,%3Csvg width='24' height='22' viewBox='
 
 "presets": [
 {
-"name": "makedo",
-"settings": {
-  
-}
+ "name": "makedo",
+ "settings": {
+    
+  }
 }
 ]
 }

@@ -132,6 +132,9 @@ content: "";
 .imges_section{
   display:block;
 }
+.grid_item.grid_index-1 {
+    border-left: 2px dashed;
+}
 /* =====================moblie================= */
 @media screen and (max-width: 998px) {
   .wrap {

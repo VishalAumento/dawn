@@ -132,7 +132,7 @@ content: "";
 .imges_section{
   display:block;
 }
-.grid_item.grid_index-1 .border_left:before {
+.grid_index-1 .border_left:before {
     content:"";
     left: 0;
     border: 2px dashed #fff;

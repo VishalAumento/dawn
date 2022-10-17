@@ -245,7 +245,7 @@ content: "";
     content: "";
     position: absolute;
     top: auto;
-    top: -9px;
+    bottom: -17px;
     left: -12px;
     width: 24px;
     height: 24px;

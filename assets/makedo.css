@@ -176,6 +176,9 @@ content: "";
 .grid_item.grid_index-1 {
     position: relative;
 }
+.grid_item.grid_index-3 {
+    position: relative;
+}
 .grid_item.grid_index-1 .border_left:after {
     content: "";
     position: absolute;
@@ -207,7 +210,7 @@ content: "";
     border: 2px dashed #fff;
     border-radius: 12px 0 0 12px;
     width: 84px;
-    height: 22%;
+    height: 100%;
     border-right: 0;
     display: block;
 }

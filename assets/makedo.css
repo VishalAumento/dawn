@@ -193,7 +193,7 @@ content: "";
     border-right: 0;
     display: block;
 }
-.grid_item.grid_index-1 .border_right{
+.grid_item.grid_index-1 .border-right{
     position: absolute;
     top: 75px;
     right: 0;

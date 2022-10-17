@@ -208,7 +208,7 @@ content: "";
     border-bottom: 0;
 }
 .grid_item.grid_index-1 .border-right:after{
-  
+  content:"";
 }
 .grid_item.grid_index-2 .border-right {
   

@@ -179,5 +179,6 @@ content: "";
     border: 2px dashed #fff;
     border-radius: 12px;
     border-right: 0;
+  display:block;
 }
 }

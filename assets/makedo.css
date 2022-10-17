@@ -162,7 +162,7 @@ content: "";
   .moblie_imges_section img {
     width: 100%;
 }
-  .phon_wrap {
+.phon_wrap {
     position: absolute;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -172,7 +172,7 @@ content: "";
 .moblie_makedo {
     position: relative;
 }
-.responsive {
+.grid_item {
     border-left: 3px dashed #fff;
     border-radius: 30px 30px;
     margin-bottom: 20px;

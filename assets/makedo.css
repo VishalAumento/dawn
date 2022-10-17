@@ -163,7 +163,7 @@ content: "";
   display:none;
 }
   .moblie_imges_section img {
-    width: 100%;
+    width: auto;
 }
 .moblie_makedo {
     position: relative;

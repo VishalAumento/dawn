@@ -156,6 +156,7 @@ content: "";
 }
   .moblie_imges_section {
     display: block;
+    width: 100%;
 }
   .imges_section{
   display:none;

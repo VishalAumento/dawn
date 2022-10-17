@@ -215,6 +215,17 @@ content: "";
     border-left: 0;
     border-radius: 0 12px 12px 0;
 }
+.grid_item.grid_index-4 .border-right{
+position: absolute;
+    top: -23px;
+    right: 0;
+    border: 2px dashed #fff;
+    width: 84px;
+    height: 98px;
+    border-left: 0;
+    border-top: 0;
+    border-radius: 12px 0;
+}
  .grid_item.grid_index-3 .border_left {
     position: absolute;
     top: 75px;

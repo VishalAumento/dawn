@@ -211,7 +211,7 @@ content: "";
 .grid_item.grid_index-4 .border-right:before {
     content: "";
     position: absolute;
-    top: 339px;
+    top: auto;
     right: 0;
     border: 2px dashed #fff;
     width: 84px;

@@ -134,7 +134,7 @@ content: "";
 }
 
 /* =====================moblie================= */
-@media screen and (max-width: 998px) {
+@media screen and (max-width: 768px) {
   .wrap {
       display: none;
   }

@@ -132,13 +132,7 @@ content: "";
 .imges_section{
   display:block;
 }
-.grid_index-1 .border_left:before {
-    content:"";
-    left: 0;
-    border: 2px dashed #fff;
-    border-radius: 12px;
-    border-right: 0;
-}
+
 /* =====================moblie================= */
 @media screen and (max-width: 998px) {
   .wrap {
@@ -179,10 +173,11 @@ content: "";
 .moblie_makedo {
     position: relative;
 }
-.grid_item {
-    border-left: 3px dashed #fff;
-    border-radius: 30px 30px;
-    margin-bottom: 20px;
-  border-right: 3px dashed #fff;
+.grid_index-1 .border_left:before {
+    content:"";
+    left: 0;
+    border: 2px dashed #fff;
+    border-radius: 12px;
+    border-right: 0;
 }
 }

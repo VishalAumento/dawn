@@ -168,7 +168,7 @@ content: "";
     left: 50%;
     transform: translate(-50%,-50%);
     top: 50%;
-    width: calc(50% - 50px);
+/*     width: calc(50% - 50px); */
 }
 .moblie_makedo {
     position: relative;

@@ -186,16 +186,14 @@ content: "";
     display: block;
 }
 .grid_item.grid_index-2 .border_left:before {
-    content: "";
     position: absolute;
     top: 75px;
-    left: 0;
+    right: 0;
     border: 2px dashed #fff;
-    border-radius: 12px 0 0 12px;
     width: 84px;
-    height: 30%;
-    border-right: 0;
-    display: block;
+    height: 100%;
+    border-left: 0;
+    border-radius: 0 12px 12px 0;
 }
   a:empty, ul:empty, dl:empty, div:empty, section:empty, article:empty, p:empty, h1:empty, h2:empty, h3:empty, h4:empty, h5:empty, h6:empty {
     display: block;

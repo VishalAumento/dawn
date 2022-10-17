@@ -1,3 +1,6 @@
+.body{
+  overflow:hidden;
+}
 .makedo_section {
     position: relative;
 }

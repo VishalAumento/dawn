@@ -194,7 +194,7 @@ content: "";
     display: block;
 }
 .grid_item.grid_index-1 .border_right{
-  position: absolute;
+    position: absolute;
     top: 75px;
     right: 0;
     border: 2px dashed #fff;

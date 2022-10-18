@@ -258,6 +258,17 @@
     },
     "bb2f591b-d946-44ee-8d4a-9d4f13cdfaf5": {
       "type": "news_letter_section",
+      "blocks": {
+        "d445b930-f4b5-4730-bd4f-900da036a3c2": {
+          "type": "heading",
+          "settings": {
+            "navbar": "Browse W3Schools with ads"
+          }
+        }
+      },
+      "block_order": [
+        "d445b930-f4b5-4730-bd4f-900da036a3c2"
+      ],
       "settings": {
         "head": "Start Free - upgrade later",
         "Master": "Master new skills",

@@ -153,6 +153,23 @@
         "text": "Build your own website with W3Schools Spaces. It is easy to use - try it!",
         "start_button": "Get started for free"
       }
+    },
+    "ff978d12-c12f-43a9-a2ad-7d71f618b1e1": {
+      "type": "w3school_collumn",
+      "blocks": {
+        "3e805dfb-3a35-4f9e-a987-3be0414d4e31": {
+          "type": "heading",
+          "settings": {
+            "head": "Website",
+            "collumn_text": "Create your own website and share it with others"
+          }
+        }
+      },
+      "block_order": [
+        "3e805dfb-3a35-4f9e-a987-3be0414d4e31"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -160,6 +177,7 @@
     "featured_products",
     "image_text",
     "2489b445-7b6b-4c88-b061-c9f4359371c5",
-    "c4665676-e07a-4fc5-9a7b-58cc7fa06e4f"
+    "c4665676-e07a-4fc5-9a7b-58cc7fa06e4f",
+    "ff978d12-c12f-43a9-a2ad-7d71f618b1e1"
   ]
 }

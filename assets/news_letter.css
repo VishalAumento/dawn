@@ -7,3 +7,11 @@
 .news_header {
     text-align: center;
 }
+.head h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: rgba(40,42,53,.7);
+    padding-top: 15px;
+}

@@ -4,7 +4,7 @@
    {%- for block in section.blocks -%}
   <div class="overlep">
       <div class="img">
-         
+          <img src="{{ block.settings.overlep| img_url: 'master' }}">
       </div>
       <div class="text">
           <p>{{ block.settings.text }}</p>
@@ -36,8 +36,12 @@
           "id": "text",
           "label": "Heading",
           "default": "Quick links"
+        },
+        {
+          "type": "image_picker",
+          "id": "overlep",
+          "label": "image"
         }
-        
         
     ]
   }

@@ -29,10 +29,13 @@
     border-radius: 20px;
     height: 47px;
     width: 200px;
+    align-items: center;
+    display: flex;
 }
 .free_plan_button a {
     font-size: 17px;
     color: #282a35;
     font-weight: 700;
-   text-decoration: none;
+    text-decoration: none;
+    margin: 0 auto;
 }

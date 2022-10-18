@@ -1,10 +1,11 @@
- .wrapper {
-/*     max-width: 1488px;
-    margin: 0 auto; */
+.wrapper {
     padding: 100px 0px;
 } 
 .section {
     background: #282a35;
+}
+.section .header{
+  color:#fff;
 }
 .img_text {
     max-width: 200px;

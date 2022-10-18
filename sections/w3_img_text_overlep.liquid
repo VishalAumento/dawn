@@ -6,9 +6,7 @@
       <div class="overlep">
           <div class="img_text">
                <div class="img">
-                  {% if block.settings.overlep != blank  %}
-                    <img src="{{ block.settings.overlep| img_url: 'master' }}">
-                  {% endif %}
+                  
                </div>
                 {% if block.settings.text != blank  %}
                 <div class="text">
@@ -27,11 +25,13 @@
 </div>
 </div>
 
+{% comment %}
 
+ {% if block.settings.overlep != blank  %}
+                    <img src="{{ block.settings.overlep| img_url: 'master' }}">
+ {% endif %}
 
-
-
-
+{% endcomment %}
 
 {% schema %}
 {

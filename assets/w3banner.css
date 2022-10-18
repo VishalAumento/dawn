@@ -53,13 +53,15 @@
 .start_button a {
     color: #fff;
     text-decoration: none;
-    font-size: 19px;
+    font-size: 22px;
 }
 .start_button {
-    width: 270px;
+    width: 308px;
     text-align: center;
     margin: 0 auto;
     background: #04aa6d;
-    border-radius:20px;
+    border-radius: 20px;
     border: 2px solid #04aa6d;
+    height: 52px;
+    padding-top: 3px;
 }

@@ -51,4 +51,7 @@
   .bolder {
     display: none;
   }
+  .overlep_section {
+    display: grid;
+}
 }

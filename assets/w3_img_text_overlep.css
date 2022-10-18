@@ -21,7 +21,8 @@
 }
 .img {
     width: 48px;
-    margin-left: 39%;
+   max-width: 300px;
+    margin: 0 auto;
 }
 .text p {
     font-size: 18px;

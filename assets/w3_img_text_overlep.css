@@ -3,6 +3,9 @@
     margin: 0 auto;
     padding: 50px 0px;
 }
+.section {
+    background: #282a35;
+}
 .img img {
     width: 47px;
 }

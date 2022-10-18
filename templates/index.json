@@ -184,13 +184,21 @@
             "head": "File manager",
             "collumn_text": "Upload and handle files in your browse"
           }
+        },
+        "804999b2-b2d4-435f-a51e-fdf05945e363": {
+          "type": "heading",
+          "settings": {
+            "head": "Experiment",
+            "collumn_text": "Learn, test, and go live with your space"
+          }
         }
       },
       "block_order": [
         "3e805dfb-3a35-4f9e-a987-3be0414d4e31",
         "8a8ad06c-92d3-424a-a543-56c6e5ad173e",
         "57eb24b3-e5bd-4c38-abf7-b2f7a2cc19a6",
-        "b74dc929-13e6-44de-b306-4c41c5762364"
+        "b74dc929-13e6-44de-b306-4c41c5762364",
+        "804999b2-b2d4-435f-a51e-fdf05945e363"
       ],
       "settings": {
       }

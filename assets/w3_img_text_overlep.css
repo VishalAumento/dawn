@@ -1,5 +1,5 @@
 .wrapper {
-    max-width: 1424px;
+    max-width: 1488px;
     margin: 0 auto;
     padding: 50px 0px;
 }
@@ -23,4 +23,5 @@
 }
 .overlep_section {
     display: flex;
+    justify-content: center;
 }

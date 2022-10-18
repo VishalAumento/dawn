@@ -87,6 +87,7 @@
     },
     "2489b445-7b6b-4c88-b061-c9f4359371c5": {
       "type": "makedo_section",
+      "disabled": true,
       "blocks": {
         "f9292a24-2547-41d8-beeb-47d46a73ee37": {
           "type": "images",

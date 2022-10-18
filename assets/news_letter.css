@@ -39,3 +39,7 @@
     text-decoration: none;
     margin: 0 auto;
 }
+.view_point {
+    background: #000;
+    width: 12%;
+}

@@ -52,3 +52,16 @@
 .text_section {
     text-align: center;
 }
+.start_button a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 19px;
+}
+.start_button {
+    width: 270px;
+    text-align: center;
+    margin: 0 auto;
+    background: #04aa6d;
+    border-radius: 35%;
+    border: 2px solid #04aa6d;
+}

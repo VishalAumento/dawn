@@ -35,7 +35,8 @@
 .overlep_section {
     display: flex;
     justify-content: center;
-   flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 63px;
 }
 .overlep {
     display: flex;

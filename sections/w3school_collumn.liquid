@@ -1,12 +1,14 @@
 {{ 'w3school_collumn.css' | asset_url | stylesheet_tag }}
 
 <div class="collumn_section">
+  {%- for block in section.blocks -%}
   <div class="collumn">
     <div class="collumn_pera">
       <h3>{{ block.settings.head }}</h3>
       <p>{{ block.settings.collumn_text }}</p>
     </div>
   </div>
+  {% endfor %}
 </div>
 
 

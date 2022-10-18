@@ -147,7 +147,10 @@
       "type": "w3schol_banner",
       "settings": {
         "images": "shopify:\/\/shop_images\/W3images.jpg",
-        "login_button": "Log in"
+        "login_button": "Log in",
+        "header": "Create a Free Website",
+        "head": "Create a Free Website",
+        "text": "Create a Free Website"
       }
     }
   },

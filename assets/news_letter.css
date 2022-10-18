@@ -49,4 +49,9 @@
     font-size: 27px;
     line-height: 46px;
     font-weight: 700;
+    text-align: center;
+}
+.free-plan {
+    margin: 0 auto;
+    max-width: 196px;
 }

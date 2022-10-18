@@ -146,7 +146,8 @@
     "c4665676-e07a-4fc5-9a7b-58cc7fa06e4f": {
       "type": "w3schol_banner",
       "settings": {
-        "banner_logo": "shopify:\/\/shop_images\/download_7340f6aa-35e9-4980-b017-08d7e117d5ab.png"
+        "images": "shopify:\/\/shop_images\/W3images.jpg",
+        "login_button": "Quick links"
       }
     }
   },

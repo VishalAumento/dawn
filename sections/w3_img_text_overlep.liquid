@@ -9,9 +9,11 @@
           <img src="{{ block.settings.overlep| img_url: 'master' }}">
       </div>
       {% endif %}
+     {% if section.settings.text != blank  %}
       <div class="text">
           <p>{{ block.settings.text }}</p>
       </div>
+      {% endif %}
     </div>
      {% if section.settings.bolder != blank  %}
      <div class="bolder">

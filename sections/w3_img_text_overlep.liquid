@@ -6,7 +6,7 @@
     </div>
   <div class="overlep_section">
      {%- for block in section.blocks -%}
-        <div class="overlep ">
+        <div class="overlep grid_index-{{ forloop.index }}">
             <div class="img_text">
                  <div class="img">
                   {% if block.settings.overlep != blank  %}

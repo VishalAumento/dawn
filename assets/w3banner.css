@@ -1,0 +1,11 @@
+.banner .button {
+    width: 44px;
+    height: 42px;
+    border-radius: 47%;
+    background: transparent;
+    border: 2px solid green;
+}
+.banner_section {
+    display: flex;
+    justify-content: space-between;
+}

@@ -4,8 +4,11 @@
 .section {
     background: #282a35;
 }
-.section .header{
-  color:#fff;
+.overlep_header {
+    text-align: center;
+}
+.overlep_header h1 {
+    color: #fff;
 }
 .img_text {
     max-width: 200px;

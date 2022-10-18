@@ -1,33 +1,33 @@
 {{ 'w3_img_text_overlep.css' | asset_url | stylesheet_tag }}
 <div class="section"> 
-<div class="wrapper">
-  <div class="overlep_header">
-  <h1>{{ section.settings.header }}</h1>
+  <div class="wrapper">
+    <div class="overlep_header">
+      <h1>{{ section.settings.header }}</h1>
+    </div>
+  <div class="overlep_section">
+     {%- for block in section.blocks -%}
+        <div class="overlep">
+            <div class="img_text">
+                 <div class="img">
+                  {% if block.settings.overlep != blank  %}
+                      <img src="{{ block.settings.overlep| img_url: 'master' }}">
+                  {% endif %}
+                 </div>
+                  {% if block.settings.text != blank  %}
+                  <div class="text">
+                      <p>{{ block.settings.text }}</p>
+                  </div>
+                  {% endif %}
+            </div>
+            <div class="bolder">
+                {% if block.settings.border != blank  %}
+                  <img src="{{ block.settings.border| img_url: 'master' }}">
+               {% endif %}
+             </div>
+        </div>
+       {% endfor %}
+    </div>
   </div>
-<div class="overlep_section">
-   {%- for block in section.blocks -%}
-      <div class="overlep">
-          <div class="img_text">
-               <div class="img">
-                {% if block.settings.overlep != blank  %}
-                    <img src="{{ block.settings.overlep| img_url: 'master' }}">
-                {% endif %}
-               </div>
-                {% if block.settings.text != blank  %}
-                <div class="text">
-                    <p>{{ block.settings.text }}</p>
-                </div>
-                {% endif %}
-          </div>
-          <div class="bolder">
-              {% if block.settings.border != blank  %}
-                <img src="{{ block.settings.border| img_url: 'master' }}">
-             {% endif %}
-           </div>
-      </div>
-     {% endfor %}
-  </div>
-</div>
 </div>
 
 {% comment %}

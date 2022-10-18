@@ -10,3 +10,11 @@
     width: 275px;
     text-align: center;
 }
+.bolder img {
+    width: 213px;
+    height: 66px;
+}
+.overlep {
+    display: flex;
+    align-items: center;
+}

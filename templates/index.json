@@ -218,7 +218,8 @@
           "type": "heading",
           "settings": {
             "text": "1. Join W3Schools - and create a space",
-            "overlep": "shopify:\/\/shop_images\/window.10dd677d.jpg"
+            "overlep": "shopify:\/\/shop_images\/window.10dd677d.jpg",
+            "border": "shopify:\/\/shop_images\/Line-3.f074919a.jpg"
           }
         }
       },

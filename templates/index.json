@@ -263,7 +263,8 @@
         "Master": "Master new skills",
         "peregraph": "Yearly (get 2 months for free)",
         "button": "FREE",
-        "button_link": "shopify:\/\/blogs\/blog1"
+        "button_link": "shopify:\/\/blogs\/blog1",
+        "price": "$0\/year"
       }
     }
   },

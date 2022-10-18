@@ -9,18 +9,17 @@
                     <img src="{{ block.settings.overlep| img_url: 'master' }}">
                   {% endif %}
                </div>
-                <div class="bolder">
-              {% if block.settings.border != blank  %}
-                <img src="{{ block.settings.border| img_url: 'master' }}">
-             {% endif %}
-           </div>
-          </div>
-         
-            {% if block.settings.text != blank  %}
+                {% if block.settings.text != blank  %}
                 <div class="text">
                     <p>{{ block.settings.text }}</p>
                 </div>
                 {% endif %}
+          </div>
+          <div class="bolder">
+              {% if block.settings.border != blank  %}
+                <img src="{{ block.settings.border| img_url: 'master' }}">
+             {% endif %}
+           </div>
       </div>
      {% endfor %}
   </div>

@@ -6,7 +6,9 @@
       <div class="overlep">
           <div class="img_text">
                <div class="img">
-                  <img src="{{ block.settings.img_text }}">
+                {% if block.settings.overlep != blank  %}
+                    <img src="{{ block.settings.overlep| img_url: 'master' }}">
+                {% endif %}
                </div>
                 {% if block.settings.text != blank  %}
                 <div class="text">
@@ -26,9 +28,8 @@
 </div>
 
 {% comment %}
-{% if block.settings.overlep != blank  %}
-                    <img src="{{ block.settings.overlep| img_url: 'master' }}">
- {% endif %}
+
+ 
 
 {% endcomment %}
 
@@ -44,11 +45,10 @@
       "type": "heading",
       "name": "t:sections.image-banner.blocks.heading.name",
       "settings": [
-        {
-          "type": "text",
-          "id": "img_text",
-          "label": "text",
-          "default": "Quick links"
+       {
+          "type": "image_picker",
+          "id": "overlep",
+          "label": "image"
         },
         {
           "type": "text",

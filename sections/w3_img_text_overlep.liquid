@@ -1,5 +1,6 @@
 {{ 'w3_img_text_overlep.css' | asset_url | stylesheet_tag }}
- <div class="wrapper">
+<div class="section"> 
+<div class="wrapper">
 <div class="overlep_section">
    {%- for block in section.blocks -%}
       <div class="overlep">
@@ -23,7 +24,7 @@
       </div>
      {% endfor %}
   </div>
- 
+</div>
 </div>
 
 

@@ -54,4 +54,9 @@
   .overlep_section {
     display: grid;
 }
+  .img {
+    width: 48px;
+     margin-left:0px;
+    margin: 0 auto;
+}
 }

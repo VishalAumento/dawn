@@ -264,10 +264,17 @@
           "settings": {
             "navbar": "Browse W3Schools with ads"
           }
+        },
+        "4963bf33-31a8-416d-b705-f600941ec73d": {
+          "type": "heading",
+          "settings": {
+            "navbar": "Quick links"
+          }
         }
       },
       "block_order": [
-        "d445b930-f4b5-4730-bd4f-900da036a3c2"
+        "d445b930-f4b5-4730-bd4f-900da036a3c2",
+        "4963bf33-31a8-416d-b705-f600941ec73d"
       ],
       "settings": {
         "head": "Start Free - upgrade later",

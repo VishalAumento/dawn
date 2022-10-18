@@ -49,9 +49,14 @@
     font-size: 27px;
     line-height: 46px;
     font-weight: 700;
-    text-align: center;
+    margin: 0;
 }
 .free-plan {
     margin: 0 auto;
     max-width: 196px;
+}
+.name p {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
 }

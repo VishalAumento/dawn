@@ -1,5 +1,5 @@
 .wrapper {
-    max-width: 1024px;
+    max-width: 1424px;
     margin: 0 auto;
     padding: 50px 0px;
 }
@@ -7,7 +7,7 @@
     width: 47px;
 }
 .img {
-    width: 30px;
+    width: 200px;
 }
 .text p {
     font-size: 18px;

@@ -6,6 +6,8 @@
 }
 .overlep_header {
     text-align: center;
+    padding: 30px;
+    padding: 30px -6px;
 }
 .overlep_header h1 {
     color: #fff;

@@ -3,12 +3,17 @@
 <div class="overlep_section">
    {%- for block in section.blocks -%}
   <div class="overlep">
-      <div class="img">
+    <div class="img_text">
+       <div class="img">
           <img src="{{ block.settings.overlep| img_url: 'master' }}">
       </div>
       <div class="text">
           <p>{{ block.settings.text }}</p>
       </div>
+    </div>
+     <div cvlass="bolder">
+       <img src="{{ block.settings.border| img_url: 'master' }}">
+     </div>
   </div>
 {% endfor %}
 </div>
@@ -40,6 +45,11 @@
         {
           "type": "image_picker",
           "id": "overlep",
+          "label": "image"
+        },
+        {
+          "type": "image_picker",
+          "id": "border",
           "label": "image"
         }
         

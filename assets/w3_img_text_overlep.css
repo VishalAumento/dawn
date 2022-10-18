@@ -10,11 +10,12 @@
     max-width: 200px;
 }
 .img img {
-    width: 47px;
+    width: 100%;
 }
 .img {
-    margin-right:-87px;
-    text-align: center;
+    width: 48px;
+/*     margin-right:-87px;
+    text-align: center; */
 }
 .text p {
     font-size: 18px;

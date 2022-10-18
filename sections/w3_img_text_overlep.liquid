@@ -15,11 +15,12 @@
       </div>
       {% endif %}
     </div>
-     {% if block.settings.bolder != blank  %}
-     <div class="bolder">
+    <div class="bolder">
+        {% if block.settings.border != blank  %}
        <img src="{{ block.settings.border| img_url: 'master' }}">
+       {% endif %}
      </div>
-    {% endif %}
+    
   </div>
 {% endfor %}
 </div>

@@ -30,3 +30,6 @@
 .overlep {
     display: flex;
 }
+.text p {
+    color: #fff;
+}

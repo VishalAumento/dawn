@@ -26,6 +26,7 @@
 .overlep_section {
     display: flex;
     justify-content: center;
+   flex-wrap: wrap;
 }
 .overlep {
     display: flex;

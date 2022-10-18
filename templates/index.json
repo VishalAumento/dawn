@@ -255,6 +255,12 @@
       "settings": {
         "header": "How it works"
       }
+    },
+    "bb2f591b-d946-44ee-8d4a-9d4f13cdfaf5": {
+      "type": "news_letter_section",
+      "settings": {
+        "head": "Start Free - upgrade later"
+      }
     }
   },
   "order": [
@@ -264,6 +270,7 @@
     "2489b445-7b6b-4c88-b061-c9f4359371c5",
     "c4665676-e07a-4fc5-9a7b-58cc7fa06e4f",
     "ff978d12-c12f-43a9-a2ad-7d71f618b1e1",
-    "e926691e-ef4a-4801-bc2f-33b82ff4c798"
+    "e926691e-ef4a-4801-bc2f-33b82ff4c798",
+    "bb2f591b-d946-44ee-8d4a-9d4f13cdfaf5"
   ]
 }

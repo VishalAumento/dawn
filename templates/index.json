@@ -237,12 +237,20 @@
             "overlep": "shopify:\/\/shop_images\/Frame.a8fb68c5.jpg",
             "border": "shopify:\/\/shop_images\/Line-1.f074919a.jpg"
           }
+        },
+        "fff46719-6450-4796-a69c-1e38ab29930f": {
+          "type": "heading",
+          "settings": {
+            "text": "4. Share your website with the world",
+            "overlep": "shopify:\/\/shop_images\/Frame_1_.577c15ca.jpg"
+          }
         }
       },
       "block_order": [
         "f87fe4b1-c18b-4ad5-b598-195b55e1f1f1",
         "a1138b43-3144-4bcf-bd4f-25ecefebf69a",
-        "2d7bd080-994b-42db-a733-04ac5b734cd4"
+        "2d7bd080-994b-42db-a733-04ac5b734cd4",
+        "fff46719-6450-4796-a69c-1e38ab29930f"
       ],
       "settings": {
       }

@@ -221,10 +221,19 @@
             "overlep": "shopify:\/\/shop_images\/window.10dd677d.jpg",
             "border": "shopify:\/\/shop_images\/Line-3.f074919a.jpg"
           }
+        },
+        "a1138b43-3144-4bcf-bd4f-25ecefebf69a": {
+          "type": "heading",
+          "settings": {
+            "text": "2. Choose a template - or start from scratch",
+            "overlep": "shopify:\/\/shop_images\/layout-wtf.2da17533.jpg",
+            "border": "shopify:\/\/shop_images\/Line-2.cdec3617.jpg"
+          }
         }
       },
       "block_order": [
-        "f87fe4b1-c18b-4ad5-b598-195b55e1f1f1"
+        "f87fe4b1-c18b-4ad5-b598-195b55e1f1f1",
+        "a1138b43-3144-4bcf-bd4f-25ecefebf69a"
       ],
       "settings": {
       }

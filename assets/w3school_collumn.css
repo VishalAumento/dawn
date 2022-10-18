@@ -2,7 +2,7 @@
     font-weight: 600;
     font-size: 24px;
     color: #04aa6d;
-  
+   text-align: center;
 }
 .collumn_section p {
     font-weight: 400;
@@ -11,4 +11,5 @@
     color: #282a35;
     max-width: 202px;
     margin: auto;
+  text-align: center;
 }

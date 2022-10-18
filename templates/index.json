@@ -191,6 +191,13 @@
             "head": "Experiment",
             "collumn_text": "Learn, test, and go live with your space"
           }
+        },
+        "687a4ab6-9517-4094-af65-d9de30b41da5": {
+          "type": "heading",
+          "settings": {
+            "head": "Playground",
+            "collumn_text": "Playground for HTML, CSS and JavaScript"
+          }
         }
       },
       "block_order": [
@@ -198,7 +205,8 @@
         "8a8ad06c-92d3-424a-a543-56c6e5ad173e",
         "57eb24b3-e5bd-4c38-abf7-b2f7a2cc19a6",
         "b74dc929-13e6-44de-b306-4c41c5762364",
-        "804999b2-b2d4-435f-a51e-fdf05945e363"
+        "804999b2-b2d4-435f-a51e-fdf05945e363",
+        "687a4ab6-9517-4094-af65-d9de30b41da5"
       ],
       "settings": {
       }

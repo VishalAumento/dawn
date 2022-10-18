@@ -1,7 +1,9 @@
 .news_header h2 {
+    margin: 0;
     font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
 }
 .news_header {
     text-align: center;
-    /* font-size: 36px; */
 }

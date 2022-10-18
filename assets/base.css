@@ -2174,10 +2174,3 @@ details-disclosure > details {
     overflow: auto;
   }
 }
-/* ============================================================================ */
-.header__icons {
-    display: flex;
-    grid-area: icons;
-    justify-self: end;
-    display: none;
-}

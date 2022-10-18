@@ -194,6 +194,7 @@
         },
         "687a4ab6-9517-4094-af65-d9de30b41da5": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "head": "Playground",
             "collumn_text": "Playground for HTML, CSS and JavaScript"

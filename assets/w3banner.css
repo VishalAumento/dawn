@@ -16,5 +16,9 @@
     width: 145px;
     text-align: center;
     padding-top: 3px;
-
+}
+.login_button a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
 }

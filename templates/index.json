@@ -261,7 +261,9 @@
       "settings": {
         "head": "Start Free - upgrade later",
         "Master": "Master new skills",
-        "peregraph": "Yearly (get 2 months for free)"
+        "peregraph": "Yearly (get 2 months for free)",
+        "button": "FREE",
+        "button_link": "shopify:\/\/blogs\/blog1"
       }
     }
   },

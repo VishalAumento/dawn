@@ -55,13 +55,13 @@
 
 
 
-@media only screen and (max-width:824px) {
+@media only screen and (max-width:947px) {
   .bolder {
     display: none;
   }
   .overlep_section {
     display: grid;
-}
+  }
   .img {
     width: 48px;
      margin-left:0px;

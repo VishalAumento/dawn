@@ -6,6 +6,9 @@
 .section {
     background: #282a35;
 }
+.img_text {
+    max-width: 200px;
+}
 .img img {
     width: 47px;
 }

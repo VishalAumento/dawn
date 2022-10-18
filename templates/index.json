@@ -262,13 +262,15 @@
         "d445b930-f4b5-4730-bd4f-900da036a3c2": {
           "type": "heading",
           "settings": {
-            "navbar": "Browse W3Schools with ads"
+            "navbar": "Browse W3Schools with ads",
+            "navbar_link": "shopify:\/\/collections\/bottoms"
           }
         },
         "4963bf33-31a8-416d-b705-f600941ec73d": {
           "type": "heading",
           "settings": {
-            "navbar": "Quick links"
+            "navbar": "Quick links",
+            "navbar_link": ""
           }
         }
       },

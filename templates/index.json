@@ -170,11 +170,19 @@
             "head": "Code editor",
             "collumn_text": "Code  directly in your browser"
           }
+        },
+        "57eb24b3-e5bd-4c38-abf7-b2f7a2cc19a6": {
+          "type": "heading",
+          "settings": {
+            "head": "Templates",
+            "collumn_text": "Start with ready-to-use designs and structures"
+          }
         }
       },
       "block_order": [
         "3e805dfb-3a35-4f9e-a987-3be0414d4e31",
-        "8a8ad06c-92d3-424a-a543-56c6e5ad173e"
+        "8a8ad06c-92d3-424a-a543-56c6e5ad173e",
+        "57eb24b3-e5bd-4c38-abf7-b2f7a2cc19a6"
       ],
       "settings": {
       }

@@ -163,10 +163,18 @@
             "head": "Website",
             "collumn_text": "Create your own website and share it with others"
           }
+        },
+        "8a8ad06c-92d3-424a-a543-56c6e5ad173e": {
+          "type": "heading",
+          "settings": {
+            "head": "Code editor",
+            "collumn_text": "Code  directly in your browser"
+          }
         }
       },
       "block_order": [
-        "3e805dfb-3a35-4f9e-a987-3be0414d4e31"
+        "3e805dfb-3a35-4f9e-a987-3be0414d4e31",
+        "8a8ad06c-92d3-424a-a543-56c6e5ad173e"
       ],
       "settings": {
       }

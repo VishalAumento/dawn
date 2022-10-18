@@ -49,6 +49,7 @@
 }
 .text_section {
     text-align: center;
+    padding: 22px 30px;
 }
 .start_button a {
     color: #fff;

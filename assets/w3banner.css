@@ -74,5 +74,8 @@
 .start_button {
     width: 248px;
 }
-
+.text_section h2 {
+    font-size: 47px;
+    line-height: 45px;
+}
 }

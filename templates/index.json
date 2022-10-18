@@ -265,7 +265,8 @@
         "button": "FREE",
         "button_link": "shopify:\/\/blogs\/blog1",
         "price": "$0\/year",
-        "name": "FREE"
+        "name": "FREE",
+        "description": "For new web developers ready to create their first site."
       }
     }
   },

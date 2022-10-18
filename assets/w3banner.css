@@ -22,3 +22,9 @@
     color: #000;
     font-size: 18px;
 }
+.banner {
+    padding: 74px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}

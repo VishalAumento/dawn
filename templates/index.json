@@ -259,7 +259,8 @@
     "bb2f591b-d946-44ee-8d4a-9d4f13cdfaf5": {
       "type": "news_letter_section",
       "settings": {
-        "head": "Start Free - upgrade later"
+        "head": "Start Free - upgrade later",
+        "Master": "Master new skills"
       }
     }
   },

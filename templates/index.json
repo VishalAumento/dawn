@@ -147,7 +147,7 @@
       "type": "w3schol_banner",
       "settings": {
         "images": "shopify:\/\/shop_images\/W3images.jpg",
-        "login_button": "Quick links"
+        "login_button": "Log in"
       }
     }
   },

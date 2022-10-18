@@ -4,18 +4,18 @@
    {%- for block in section.blocks -%}
   <div class="overlep">
     <div class="img_text">
-      {% if section.settings.img != blank  %}
+      {% if block.settings.img != blank  %}
        <div class="img">
           <img src="{{ block.settings.overlep| img_url: 'master' }}">
       </div>
       {% endif %}
-     {% if section.settings.text != blank  %}
+     {% if block.settings.text != blank  %}
       <div class="text">
           <p>{{ block.settings.text }}</p>
       </div>
       {% endif %}
     </div>
-     {% if section.settings.bolder != blank  %}
+     {% if block.settings.bolder != blank  %}
      <div class="bolder">
        <img src="{{ block.settings.border| img_url: 'master' }}">
      </div>

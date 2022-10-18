@@ -1,15 +1,15 @@
 {{ 'w3_img_text_overlep.css' | asset_url | stylesheet_tag }}
 
 <div class="overlep_section">
-<div class="overlep">
-<div class="img">
- <img src="{{ block.settings.overlep| img_url: 'master' }}">
-</div>
-<div class="text">
-<p>{{ block.settings.text }}</p>
-</div>
-</div>
- 
+  <div class="overlep">
+      <div class="img">
+          <img src="{{ block.settings.overlep| img_url: 'master' }}">
+      </div>
+      <div class="text">
+          <p>{{ block.settings.text }}</p>
+      </div>
+  </div>
+
 </div>
 
 
@@ -19,21 +19,21 @@
 
 
 {% schema %}
-  {
-  "name": "w3_img_text_overlep",
-  "tag": "section",
-  "settings": [
-    
-  ],
+{
+"name": "w3_img_text_overlep",
+"tag": "section",
+"settings": [
   
-  "presets": [
-     {
-       "name": "w3_img_text_overlep",
-       "settings": {
-          
-        }
-     }
-   ]
+],
+
+"presets": [
+   {
+     "name": "w3_img_text_overlep",
+     "settings": {
+        
+      }
+   }
+ ]
 }
 {% endschema %}
 

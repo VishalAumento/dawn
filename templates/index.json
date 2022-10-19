@@ -257,6 +257,25 @@
         "header": "How it works"
       }
     },
+    "29d0aa85-7727-4265-bb42-564cd44a0ccd": {
+      "type": "code_game_section",
+      "settings": {
+        "game_image": "shopify:\/\/shop_images\/w3lynx_200.png",
+        "game_head": "Code Game",
+        "games_text": "Help the Lynx collect pine cones!",
+        "game_btn": "Quick links",
+        "btn_link": ""
+      }
+    },
+    "42611d1c-7905-4999-8516-6c406326ce4e": {
+      "type": "code_section",
+      "settings": {
+        "header": "Learn to Code",
+        "coad_text": "With the world's largest web developer site.",
+        "list_text": "Not Sure Where To Begin?",
+        "link": "shopify:\/\/blogs\/blogs"
+      }
+    },
     "bb2f591b-d946-44ee-8d4a-9d4f13cdfaf5": {
       "type": "news_letter_section",
       "blocks": {
@@ -309,23 +328,6 @@
         "copyright_text": "<p>© 1999 - 2022 <a href=\"\/blogs\/blogs\/blog2\" target=\"_blank\" title=\"A life less wasteful\">W3schools<\/a>. All rights reserved. <a href=\"\/blogs\/details\" target=\"_blank\" title=\"details\">Cookie policy<\/a>, <a href=\"\/products\/brussel-sprouts\" target=\"_blank\" title=\"Brussel Sprouts\">Privacy<\/a> and <a href=\"\/products\/demo-wolf\" target=\"_blank\" title=\"Demo Product Title\">Terms<\/a>.<\/p>",
         "copy_text": "<p>Reporting abusive content help us keep Spaces safe. Help us by<a href=\"\/pages\/mission\" target=\"_blank\" title=\"Mission\">Reporting Abusei<\/a>f you find any.<\/p>"
       }
-    },
-    "42611d1c-7905-4999-8516-6c406326ce4e": {
-      "type": "code_section",
-      "settings": {
-        "header": "Learn to Code",
-        "coad_text": "With the world's largest web developer site.",
-        "list_text": "Not Sure Where To Begin?",
-        "link": "shopify:\/\/blogs\/blogs"
-      }
-    },
-    "29d0aa85-7727-4265-bb42-564cd44a0ccd": {
-      "type": "code_game_section",
-      "settings": {
-        "game_image": "shopify:\/\/shop_images\/w3lynx_200.png",
-        "game_head": "Code Game",
-        "games_text": "Help the Lynx collect pine cones!"
-      }
     }
   },
   "order": [
@@ -336,8 +338,8 @@
     "c4665676-e07a-4fc5-9a7b-58cc7fa06e4f",
     "ff978d12-c12f-43a9-a2ad-7d71f618b1e1",
     "e926691e-ef4a-4801-bc2f-33b82ff4c798",
-    "bb2f591b-d946-44ee-8d4a-9d4f13cdfaf5",
+    "29d0aa85-7727-4265-bb42-564cd44a0ccd",
     "42611d1c-7905-4999-8516-6c406326ce4e",
-    "29d0aa85-7727-4265-bb42-564cd44a0ccd"
+    "bb2f591b-d946-44ee-8d4a-9d4f13cdfaf5"
   ]
 }

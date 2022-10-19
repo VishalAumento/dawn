@@ -1,4 +1,4 @@
-{{ 'code_section.css' | asset_url | stylesheet_tag }}
+{{ 'code_game_section.css' | asset_url | stylesheet_tag }}
 
 
 
@@ -7,9 +7,21 @@
 
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
-  }
+  "name": "code_game_section",
+  "tag": "section",
+  "settings": [
+    
+  ],
+  
+  "presets": [
+     {
+       "name": "code_game_section",
+       "settings": {
+          
+        }
+     }
+   ]
+}
 {% endschema %}
 
 {% stylesheet %}

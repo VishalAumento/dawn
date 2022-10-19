@@ -44,7 +44,29 @@
      </div>
      <div class="plans-container">
       <div class="pro-plan proplan">
-        
+         <div class="price">
+         <P>{{ section.settings.price }}</P>
+       </div>
+       <div class="name">
+         <P>{{ section.settings.name }}</P>
+       </div>
+       <div class="description">
+         <p>{{ section.settings.description }}</p>
+       </div>
+       <div class="manu_bar">
+        {%- for block in section.blocks -%}
+         <ul>
+            <li>
+              <a href="{{ block.settings.navbar_link }}"> {{ block.settings.navbar }}</a>
+            </li>
+         </ul>
+          {% endfor %}
+       </div>
+       </div>
+     
+         <div class="get_start_button">
+          <a href="{{ section.settings.button_link }}">{{ section.settings.button }}</a>
+        </div>
       </div>
      </div>
   </div>

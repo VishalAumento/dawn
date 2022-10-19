@@ -15,3 +15,10 @@
 .games_img {
     text-align: center;
 }
+.game_button {
+    text-align: center;
+    background: #000;
+    width: 223px;
+    border-radius: 20px;
+    margin: 0 auto;
+}

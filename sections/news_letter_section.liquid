@@ -27,11 +27,13 @@
          <p>{{ section.settings.description }}</p>
        </div>
        <div class="manu_bar">
+        {%- for block in section.blocks -%}
          <ul>
             <li>
               <a href="{{ block.settings.navbar_link }}"> {{ block.settings.navbar }}</a>
             </li>
          </ul>
+          {% endfor %}
        </div>
      </div>
      <div class="plans-container">

@@ -1,4 +1,4 @@
-{{ 'code_game_section.css' | asset_url | stylesheet_tag }}
+_{{ 'code_game_section.css' | asset_url | stylesheet_tag }}
 
 <div class="code_game">
   <div class="game_section">
@@ -12,7 +12,7 @@
       <img src="{{ section.settings.game_image| img_url: 'master' }}">
     </div>
     <div class="game_button">
-      
+      <a href="{{ section.settings.btn_link }}"><p>{{ section.settings.game_btn }}</p></a>
     </div>
   </div>
 

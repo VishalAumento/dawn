@@ -180,3 +180,7 @@
     display: flex;
     justify-content: center;
 }  
+
+.pro-plan.proplan.grid_index-1 {
+    border-right: 2px solid #babec2;
+}

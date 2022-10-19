@@ -44,11 +44,11 @@
     text-decoration: none;
     margin: 0 auto;
 }
-.view_point {
+/* .view_point {
     border-radius: 20px;
     background:rgb(40, 42, 53);;
     width: 17.33%;
-}
+} */
 .price p {
     color: #fff;
     font-size: 27px;
@@ -75,7 +75,10 @@
     font-size: 15px;
 }
 .free-plan {
-    padding: 20px 0px;
+    padding: 20px 0;
+    border-radius: 20px;
+    background: rgb(40,42,53);
+    width: 17.33%;
 }
 .manu_bar a {
     color: #fff;

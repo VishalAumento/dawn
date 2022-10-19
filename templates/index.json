@@ -304,7 +304,7 @@
         "footer_head": "Looking to add multiple users?",
         "footer_text": "Read here for how to get in touch.",
         "footer_text_link": "shopify:\/\/collections\/demo",
-        "agreementcontainer": ""
+        "agreementcontainer": "<p>By selecting a plan: Free, Pro, or Premium, you agree to W3Schools'<a href=\"https:\/\/www.w3schools.com\/about\/about_copyright.asp\" target=\"_blank\">Terms of Service<\/a>and<a href=\"https:\/\/www.w3schools.com\/about\/about_privacy.asp\" target=\"_blank\">Privacy Policy<\/a><\/p>"
       }
     }
   },

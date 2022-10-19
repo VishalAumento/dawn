@@ -221,7 +221,7 @@
     margin: 0;
 }
 .news_footer_header p:hover {
- ext-decoration: underline;
+ text-decoration: underline;
 }
 @media only screen and (max-width: 998px) {
 .free-plan {

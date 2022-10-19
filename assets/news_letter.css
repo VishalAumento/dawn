@@ -31,6 +31,7 @@
     width: 200px;
     align-items: center;
     display: flex;
+  margin: 0 auto;
 }
 .free_plan_button a {
     font-size: 17px;
@@ -91,6 +92,7 @@
     width: 200px;
     align-items: center;
     display: flex;
+  margin: 0 auto;
 }
 .get_start_button a {
   font-size: 17px;

@@ -318,6 +318,13 @@
         "list_text": "Not Sure Where To Begin?",
         "link": "shopify:\/\/blogs\/blogs"
       }
+    },
+    "29d0aa85-7727-4265-bb42-564cd44a0ccd": {
+      "type": "code_game_section",
+      "settings": {
+        "game_head": "Quick links",
+        "games_text": "Quick links"
+      }
     }
   },
   "order": [
@@ -329,6 +336,7 @@
     "ff978d12-c12f-43a9-a2ad-7d71f618b1e1",
     "e926691e-ef4a-4801-bc2f-33b82ff4c798",
     "bb2f591b-d946-44ee-8d4a-9d4f13cdfaf5",
-    "42611d1c-7905-4999-8516-6c406326ce4e"
+    "42611d1c-7905-4999-8516-6c406326ce4e",
+    "29d0aa85-7727-4265-bb42-564cd44a0ccd"
   ]
 }

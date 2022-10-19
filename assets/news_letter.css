@@ -1,3 +1,7 @@
+.root {
+    background: #cfe9e1;
+    padding: 30px;
+}
 .news_header h2 {
     margin: 0;
     font-size: 36px;

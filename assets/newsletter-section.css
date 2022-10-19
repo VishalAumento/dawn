@@ -13,15 +13,7 @@
   padding-right: 4rem;
   padding-left: 4rem;
 }
-.manu_bar a {
-    color: #fff;
-    text-decoration: none;
-    letter-spacing: 0;
-}
-.manu_bar ul {
-    padding: 0px;
-    color: #fff;
-}
+
 @media screen and (min-width: 750px) {
   .newsletter__wrapper {
     padding-right: 9rem;

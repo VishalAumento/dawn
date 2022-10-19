@@ -25,11 +25,19 @@ form.example {
     text-align: center;
 }
 .form_section input {
-    border-radius: 20px;
-    background: #fff;
-    border: navajowhite;
-    padding: 12px 89px;
-    margin-bottom: 20px;
+    padding: 8px;
+    font-size: 17px;
+    border: 1px solid #282A35;
+    border-radius: 25px;
+    float: left;
+    width: 80%;
+    padding-left: 25px;
+    background: white;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 0;
+    border-right: 1px solid #04AA6D;
+    outline: 0;
 }
 button#learntocode_searchbtn {
     border-radius: 25px;

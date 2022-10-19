@@ -141,6 +141,13 @@
     font-weight: 700;
     font-size: 36px;
     line-height: 46px;
+    margin: 0;
+}
+.proplan_description p {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    margin: 0;
 }
 .proplan_name p {
     font-size: 28px;

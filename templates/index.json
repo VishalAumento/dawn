@@ -302,14 +302,6 @@
         "name": "FREE",
         "description": "For new web developers ready to create their first site."
       }
-    },
-    "b807bcb6-d8bf-4e9f-8b92-d62162eed684": {
-      "type": "makedo_section",
-      "settings": {
-        "background_images": "shopify:\/\/shop_images\/new_img.png",
-        "header": "Quick links",
-        "footer": "Quick links"
-      }
     }
   },
   "order": [
@@ -320,7 +312,6 @@
     "c4665676-e07a-4fc5-9a7b-58cc7fa06e4f",
     "ff978d12-c12f-43a9-a2ad-7d71f618b1e1",
     "e926691e-ef4a-4801-bc2f-33b82ff4c798",
-    "bb2f591b-d946-44ee-8d4a-9d4f13cdfaf5",
-    "b807bcb6-d8bf-4e9f-8b92-d62162eed684"
+    "bb2f591b-d946-44ee-8d4a-9d4f13cdfaf5"
   ]
 }

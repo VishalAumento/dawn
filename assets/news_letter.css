@@ -110,7 +110,11 @@
     text-decoration: none;
     margin: 0 auto;
 }
-
+.view_point {
+    width: 100%;
+    max-width: 1059px;
+    margin: 0 auto;
+}
 
 
 

@@ -208,4 +208,10 @@
   .plans-container {
     display: block;
 }
+  .free_plan_button {
+    width: 205px;
+}
+  .get_start_button {
+    width: 210px;
+}
 }

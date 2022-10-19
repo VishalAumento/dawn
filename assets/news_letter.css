@@ -204,7 +204,9 @@
     margin: 0;
     padding: 0;
 }
-
+.news_footer_header p {
+    margin: 0;
+}
 @media only screen and (max-width: 998px) {
 .free-plan {
     width: 93%;

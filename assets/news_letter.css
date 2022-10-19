@@ -220,7 +220,7 @@
 .news_footer_header p {
     margin: 0;
 }
-.news_footer_header a:hover {
+.news_footer_header p:hover {
     border-bottom: 1px solid #04aa6d;
 }
 @media only screen and (max-width: 998px) {

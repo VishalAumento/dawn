@@ -4,3 +4,9 @@
     text-align: center;
     margin: 0 auto;
 }
+.games_text p {
+    font-size: 32px;
+    margin: 0;
+    text-align: center;
+    font-family: Freckle Face, cursive;
+}

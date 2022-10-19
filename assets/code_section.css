@@ -55,3 +55,6 @@ button#learntocode_searchbtn {
 .form_section {
     padding-bottom: 20px;
 }
+svg.w-6.h-6 {
+    width: 22px;
+}

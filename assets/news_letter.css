@@ -280,3 +280,7 @@ body{
   .pro-plan.proplan.grid_index-1 {
     border-right:none;
 }
+.plans-container {
+    margin-left: 0;
+}
+}

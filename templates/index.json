@@ -259,72 +259,34 @@
     "bb2f591b-d946-44ee-8d4a-9d4f13cdfaf5": {
       "type": "news_letter_section",
       "blocks": {
-        "d445b930-f4b5-4730-bd4f-900da036a3c2": {
-          "type": "heading",
+        "47f9bd1d-cbb5-4555-8ada-b8203c6bb8fd": {
+          "type": "text",
           "settings": {
-            "navbar": "Browse W3Schools with ads",
-            "navbar_link": "shopify:\/\/collections\/bottoms"
+            "pro-plan_price": "Quick links",
+            "pro-plan_name": "Quick links",
+            "pro-plan_description": "Quick links",
+            "pro-plan_button": "Quick links",
+            "pro-plan_button_link": "",
+            "proplan_navbar": "Quick links",
+            "proplan_navbar_link": ""
           }
         },
-        "4963bf33-31a8-416d-b705-f600941ec73d": {
-          "type": "heading",
+        "c3e6f518-91d0-4821-9eba-0fbe01212fa9": {
+          "type": "text",
           "settings": {
-            "navbar": "Build static sites",
-            "navbar_link": "shopify:\/\/collections"
-          }
-        },
-        "0986b0f7-45ce-48f9-9c78-5add4c676967": {
-          "type": "heading",
-          "settings": {
-            "navbar": "1 space",
-            "navbar_link": "shopify:\/\/collections\/bottoms"
-          }
-        },
-        "9ecfb6b2-131a-4b77-af82-09b87c6d45c4": {
-          "type": "heading",
-          "settings": {
-            "navbar": "100 MB storages",
-            "navbar_link": "shopify:\/\/collections\/bottoms"
-          }
-        },
-        "08ea0a32-43de-4504-932f-5518094b3674": {
-          "type": "heading",
-          "settings": {
-            "navbar": "75 MB data \/ month",
-            "navbar_link": "shopify:\/\/collections"
-          }
-        },
-        "1807efd7-1838-4ade-bac7-1f6da5eb3f98": {
-          "type": "heading",
-          "settings": {
-            "navbar": "500 requests \/ month",
-            "navbar_link": "shopify:\/\/collections"
-          }
-        },
-        "c669683a-85fd-47a8-baaf-99260fced341": {
-          "type": "heading",
-          "settings": {
-            "navbar": "w3spaces.com subdomain",
-            "navbar_link": "shopify:\/\/collections"
-          }
-        },
-        "83173ffb-61a5-41c4-8a37-fc8a24604514": {
-          "type": "heading",
-          "settings": {
-            "navbar": "SSL certificate",
-            "navbar_link": "shopify:\/\/collections"
+            "pro-plan_price": "Quick links",
+            "pro-plan_name": "Quick links",
+            "pro-plan_description": "Quick links",
+            "pro-plan_button": "Quick links",
+            "pro-plan_button_link": "",
+            "proplan_navbar": "Quick links",
+            "proplan_navbar_link": ""
           }
         }
       },
       "block_order": [
-        "d445b930-f4b5-4730-bd4f-900da036a3c2",
-        "4963bf33-31a8-416d-b705-f600941ec73d",
-        "0986b0f7-45ce-48f9-9c78-5add4c676967",
-        "9ecfb6b2-131a-4b77-af82-09b87c6d45c4",
-        "08ea0a32-43de-4504-932f-5518094b3674",
-        "1807efd7-1838-4ade-bac7-1f6da5eb3f98",
-        "c669683a-85fd-47a8-baaf-99260fced341",
-        "83173ffb-61a5-41c4-8a37-fc8a24604514"
+        "47f9bd1d-cbb5-4555-8ada-b8203c6bb8fd",
+        "c3e6f518-91d0-4821-9eba-0fbe01212fa9"
       ],
       "settings": {
         "head": "Start Free - upgrade later",

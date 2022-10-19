@@ -198,5 +198,11 @@
   .view_point {
     display: block;
 }
+  .pro-plan.proplan.grid_index-1 {
+    border-radius: 20px;
+}
+   .pro-plan.proplan.grid_index-2 {
+    border-radius: 20px;
+}
 }
 

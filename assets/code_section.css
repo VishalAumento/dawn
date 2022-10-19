@@ -58,3 +58,9 @@ button#learntocode_searchbtn {
 svg.w-6.h-6 {
     width: 22px;
 }
+div#listofsearchresults p {
+    text-align: center;
+    font-size: 23px;
+    color: #fff;
+    font-weight: 700;
+}

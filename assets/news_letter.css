@@ -128,13 +128,13 @@
 
 
 .plans-container {
-    display: flex;
-    background: #fff;
+   background: #fff;
     border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
 }
 .pro-plan.proplan {
     padding: 30px;
 }
-.plans-container {
-    display: flex;
-}
+
+  

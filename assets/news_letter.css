@@ -187,7 +187,9 @@
     background: #fff;
     border-radius: 0px 20px 20px 0px;
 }
-
+.news_footer_header {
+    margin-top: 50px;
+}
 .news_footer_header h3 {
     font-size: 16px;
     font-weight: 700;

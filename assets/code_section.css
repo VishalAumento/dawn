@@ -11,3 +11,8 @@
     font-size: 23px;
     text-align: center;
 }
+.form_section input {
+    border-radius: 20px;
+    background: #fff;
+    border: navajowhite;
+}

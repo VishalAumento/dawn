@@ -129,8 +129,6 @@
 
 .plans-container {
   display: flex;
-   background: #fff;
-    border-radius: 20px;
     margin-top: 30px;
     margin-left: 20px;
 }
@@ -183,4 +181,10 @@
 
 .pro-plan.proplan.grid_index-1 {
     border-right: 2px solid #babec2;
+    background: #fff;
+    border-radius: 20px 0px 0px 20px;
+}
+.pro-plan.proplan.grid_index-2 {
+    background: #fff;
+    border-radius: 0px 20px 20px 0px;
 }

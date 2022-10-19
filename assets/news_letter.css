@@ -137,5 +137,10 @@
 .pro-plan.proplan {
     padding: 30px;
 }
-
+.proplan_price p {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    margin: 0;
+}
   

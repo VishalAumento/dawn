@@ -145,4 +145,11 @@
 .proplan_manu_bar ul {
     padding: 0;
 }
+.proplan_manu_bar a {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    text-decoration: none;
+    color: rgba(40,42,53,.7);
+}
   

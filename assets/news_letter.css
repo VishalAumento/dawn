@@ -92,3 +92,10 @@
     align-items: center;
     display: flex;
 }
+.get_start_button a {
+  font-size: 17px;
+    color: #282a35;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 0 auto;
+}

@@ -161,4 +161,10 @@
     background: #green;
     width: 228px;
 }
-  
+.proplan_get_start_button a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}  

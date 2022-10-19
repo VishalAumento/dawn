@@ -53,6 +53,7 @@
 .free-plan {
     margin: 0 auto;
     max-width: 196px;
+   padding: 12px 0px;
 }
 .name p {
     color: #fff;

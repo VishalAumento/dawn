@@ -115,6 +115,7 @@
     width: 100%;
     max-width: 1059px;
     margin: 0 auto;
+   display:flex;
 }
 
 

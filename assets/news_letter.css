@@ -193,6 +193,16 @@
     font-weight: 700;
     line-height: 24px;
     text-align: center;
+     margin: 0;
+}
+.news_footer_header a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #04AA6D;
+    text-decoration: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 @media only screen and (max-width: 998px) {

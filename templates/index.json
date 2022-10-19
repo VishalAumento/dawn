@@ -300,7 +300,9 @@
         "button_link": "shopify:\/\/blogs\/blog1",
         "price": "$0\/year",
         "name": "FREE",
-        "description": "For new web developers ready to create their first site."
+        "description": "For new web developers ready to create their first site.",
+        "footer_head": "Looking to add multiple users?",
+        "footer_text": "Read here for how to get in touch."
       }
     }
   },

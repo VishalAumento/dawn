@@ -50,10 +50,10 @@
          <P>{{ block.settings.pro-plan_price }}</P>
        </div>
        <div class="proplan_name">
-         <P>{{ section.settings.name }}</P>
+         <P>{{ block.settings.pro-plan_name }}</P>
        </div>
        <div class="proplan_description">
-         <p>{{ section.settings.description }}</p>
+         <p>{{ block.settings.pro-plan_description }}</p>
        </div>
        <div class="proplan_manu_bar">
         {%- for block in section.blocks -%}
@@ -65,7 +65,7 @@
           {% endfor %}
        </div>
        <div class="proplan_get_start_button">
-          <a href="{{ section.settings.button_link }}">{{ section.settings.button }}</a>
+          <a href="{{ block.settings.pro-plan_button_link }}">{{ block.settings.pro-plan_button }}</a>
         </div>
        </div>
      {% endfor %}

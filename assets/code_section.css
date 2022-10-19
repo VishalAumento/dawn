@@ -21,3 +21,18 @@
 .codepen_section {
     background: antiquewhite;
 }
+form.example {
+    text-align: center;
+}
+.form_section input {
+    border-radius: 20px;
+    background: #fff;
+    border: navajowhite;
+    padding: 12px 89px;
+    margin-bottom: 20px;
+}
+button#learntocode_searchbtn {
+    width: 77px;
+    border-radius: 20px;
+    padding: 15px;
+}

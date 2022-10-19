@@ -204,5 +204,7 @@
    .pro-plan.proplan.grid_index-2 {
     border-radius: 20px;
 }
+  .plans-container {
+    display: block;
 }
-
+}

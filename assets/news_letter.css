@@ -82,3 +82,13 @@
     color: #fff;
     margin: 0;
 }
+.get_start_button {
+    background: #fff4a3;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 20px;
+    height: 47px;
+    width: 200px;
+    align-items: center;
+    display: flex;
+}

@@ -568,7 +568,6 @@ footer details[open] summary ~ * {
     right: 30px;
     z-index: 99;
     font-size: 18px;
-    border: none;
     outline: none;
     background-color: #04aa6d;
     color: #fff;

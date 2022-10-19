@@ -41,13 +41,12 @@ form.example {
 }
 button#learntocode_searchbtn {
     border-radius: 25px;
-    /* float: left; */
     width: 20%;
     padding: 18px;
     background: #04AA6D;
     color: white;
     font-size: 17px;
-    border: 1px solid #282A35;
+   border: 1px solid #04AA6D;
     border-left: none;
     cursor: pointer;
     border-top-left-radius: 0;

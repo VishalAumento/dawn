@@ -68,3 +68,13 @@
     color: #fff;
     font-size: 15px;
 }
+
+.manu_bar a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 0;
+}
+.manu_bar ul {
+    padding: 0px;
+    color: #fff;
+}

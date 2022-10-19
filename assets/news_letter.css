@@ -221,9 +221,7 @@
     margin: 0;
 }
 .news_footer_header p:hover {
-    border-bottom: 1px solid #04aa6d;
-     width:300px;
-    margin:0 auto;
+ ext-decoration: underline;
 }
 @media only screen and (max-width: 998px) {
 .free-plan {

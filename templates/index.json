@@ -322,6 +322,7 @@
     "29d0aa85-7727-4265-bb42-564cd44a0ccd": {
       "type": "code_game_section",
       "settings": {
+        "game_image": "shopify:\/\/shop_images\/w3lynx_200.png",
         "game_head": "Code Game",
         "games_text": "Help the Lynx collect pine cones!"
       }

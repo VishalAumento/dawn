@@ -52,3 +52,6 @@ button#learntocode_searchbtn {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
+.form_section {
+    padding-bottom: 20px;
+}

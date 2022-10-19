@@ -3,3 +3,10 @@
     font-size: 70px;
     font-weight: 700;
 }
+.coad_text p {
+    color: #FFC0C7;
+    font-weight: 700;
+    margin-top: 30px!important;
+    font-size: 23px;
+    text-align: center;
+}

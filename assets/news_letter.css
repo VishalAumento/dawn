@@ -73,6 +73,8 @@
     color: #fff;
     text-decoration: none;
     letter-spacing: 0;
+  font-size: 15px;
+    font-weight: 600;
 }
 .manu_bar ul {
     padding: 0px;

@@ -147,6 +147,7 @@
       "type": "w3schol_banner",
       "settings": {
         "images": "shopify:\/\/shop_images\/W3images.jpg",
+        "logo_link": "shopify:\/\/blogs\/blogs",
         "login_button": "Log in",
         "header": "Create a Free Website",
         "head": "Everything you need right in the browser.",

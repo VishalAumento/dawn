@@ -25,9 +25,9 @@ form.example {
     text-align: center;
 }
 .form_section input {
-    padding: 8px;
-    font-size: 17px;
   
+    font-size: 17px;
+     padding: 8px 8px 10px 25px;
     border-radius: 25px;
     float: left;
     width: 80%;

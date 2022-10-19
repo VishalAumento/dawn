@@ -575,4 +575,5 @@ footer details[open] summary ~ * {
     padding: 15px;
     border-radius: 26px;
    font-family: Source Sans Pro;
+  border: none;
 }

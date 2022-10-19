@@ -314,7 +314,9 @@
       "type": "code_section",
       "settings": {
         "header": "Learn to Code",
-        "coad_text": "With the world's largest web developer site."
+        "coad_text": "With the world's largest web developer site.",
+        "list_text": "Not Sure Where To Begin?",
+        "link": "shopify:\/\/blogs\/blogs"
       }
     }
   },

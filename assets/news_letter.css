@@ -277,4 +277,6 @@ body{
   .proplan_price p {
     font-size: 24px;
 }
+  .pro-plan.proplan.grid_index-1 {
+    border-right:none;
 }

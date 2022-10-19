@@ -64,3 +64,6 @@ div#listofsearchresults p {
     color: #fff;
     font-weight: 700;
 }
+div#listofsearchresults a {
+    color: #fff;
+}

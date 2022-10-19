@@ -45,7 +45,7 @@
     
  <div class="plans-container">
      {%- for block in section.blocks -%}
-      <div class="pro-plan proplan">
+      <div class="pro-plan proplan {{ section_  }}">
          <div class="proplan_price">
          <P>{{ block.settings.pro-plan_price }}</P>
        </div>

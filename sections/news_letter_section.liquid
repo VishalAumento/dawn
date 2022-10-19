@@ -78,6 +78,9 @@
       <h3>{{ section.settings.footer_head }}</h3>
      <a href="{{ block.settings.footer_text_link }}"><p>{{ section.settings.footer_text }}</p></a>   
      </div>
+      <div class="agreement">
+        <p>{{ section.settings.agreementcontainer }}</p>
+      </div>
 </div>
 
 
@@ -161,6 +164,12 @@
       "type": "url",
       "id": "footer_text_link",
       "label": "footer link"
+    },
+    {
+      "type": "text",
+      "id": "agreementcontainer",
+      "label": "agreementcontainer",
+      "default": "Quick links"
     }
     
     

@@ -137,6 +137,11 @@
 .pro-plan.proplan {
     padding: 30px;
 }
+.proplan_price p {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+}
 .proplan_name p {
     font-size: 28px;
     font-weight: 700;

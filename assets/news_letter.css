@@ -127,10 +127,12 @@
 
 
 
-
-.pro-plan.proplan {
+.plans-container {
+    display: flex;
     background: #fff;
     border-radius: 20px;
+}
+.pro-plan.proplan {
     padding: 30px;
 }
 .plans-container {

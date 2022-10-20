@@ -29,12 +29,12 @@
 .bolder img {
   padding: 30px 0px;
 }
-
 .overlep_section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     padding: 63px;
+    align-items: center;
 }
 .overlep {
     display: flex;

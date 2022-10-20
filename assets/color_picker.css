@@ -22,7 +22,12 @@
 .color_piker {
     padding: 71px 0px;
 }
-
+.cart_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    max-width: 1592px;
+}
 
 @media only screen and ( max-width: 998px) {
 .cart_section {

@@ -6,6 +6,9 @@
     margin-top: 51px;
     margin-bottom: -29px;
 }
+.overlep.grid_index-3 .bolder img {
+    padding: 24px 0px;
+}
 .overlep_header {
     text-align: center;
     padding: 30px -6px;

@@ -267,6 +267,59 @@
         "btn_link": "shopify:\/\/blogs\/details"
       }
     },
+    "bb2f591b-d946-44ee-8d4a-9d4f13cdfaf5": {
+      "type": "news_letter_section",
+      "blocks": {
+        "47f9bd1d-cbb5-4555-8ada-b8203c6bb8fd": {
+          "type": "text",
+          "settings": {
+            "pro-plan_price": "$4.99\/month",
+            "pro-plan_name": "Pro",
+            "pro-plan_description": "For those running multiple spaces with more traffic.",
+            "pro-plan_button": "$4.99\/month",
+            "pro-plan_button_link": "shopify:\/\/pages\/information",
+            "proplan_navbar": "Browse W3Schools without ads",
+            "proplan_navbar_link": "",
+            "navbar": "Build static sites",
+            "navbar_link": ""
+          }
+        },
+        "c3e6f518-91d0-4821-9eba-0fbe01212fa9": {
+          "type": "text",
+          "settings": {
+            "pro-plan_price": "$12.99\/month",
+            "pro-plan_name": "Premium",
+            "pro-plan_description": "Build more sites and grow your online presence.",
+            "pro-plan_button": "$12.99\/month",
+            "pro-plan_button_link": "",
+            "proplan_navbar": "Browse W3Schools without ads",
+            "proplan_navbar_link": "",
+            "navbar": "1 space",
+            "navbar_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "47f9bd1d-cbb5-4555-8ada-b8203c6bb8fd",
+        "c3e6f518-91d0-4821-9eba-0fbe01212fa9"
+      ],
+      "settings": {
+        "head": "Start Free - upgrade later",
+        "Master": "Master new skills",
+        "peregraph": "Yearly (get 2 months for free)",
+        "button": "FREE",
+        "button_link": "shopify:\/\/blogs\/blog1",
+        "price": "$0\/year",
+        "name": "FREE",
+        "description": "For new web developers ready to create their first site.",
+        "footer_head": "Looking to add multiple users?",
+        "footer_text": "Read here for how to get in touch.",
+        "footer_text_link": "shopify:\/\/collections\/demo",
+        "agreementcontainer": "<p>By selecting a plan: Free, Pro, or Premium, you agree to W3Schools'<a href=\"https:\/\/www.w3schools.com\/about\/about_copyright.asp\" target=\"_blank\">Terms of Service<\/a>and<a href=\"https:\/\/www.w3schools.com\/about\/about_privacy.asp\" target=\"_blank\">Privacy Policy<\/a><\/p>",
+        "copyright_text": "<p>© 1999 - 2022 <a href=\"\/blogs\/blogs\/blog2\" target=\"_blank\" title=\"A life less wasteful\">W3schools<\/a>. All rights reserved. <a href=\"\/blogs\/details\" target=\"_blank\" title=\"details\">Cookie policy<\/a>, <a href=\"\/products\/brussel-sprouts\" target=\"_blank\" title=\"Brussel Sprouts\">Privacy<\/a> and <a href=\"\/products\/demo-wolf\" target=\"_blank\" title=\"Demo Product Title\">Terms<\/a>.<\/p>",
+        "copy_text": "<p>Reporting abusive content help us keep Spaces safe. Help us by<a href=\"\/pages\/mission\" target=\"_blank\" title=\"Mission\">Reporting Abusei<\/a>f you find any.<\/p>"
+      }
+    },
     "42611d1c-7905-4999-8516-6c406326ce4e": {
       "type": "code_section",
       "settings": {
@@ -274,6 +327,14 @@
         "coad_text": "With the world's largest web developer site.",
         "list_text": "Not Sure Where To Begin?",
         "link": "shopify:\/\/blogs\/blogs"
+      }
+    },
+    "bd14ef96-c00a-48a8-a6d7-a2e3bbcdec39": {
+      "type": "color_picker_section",
+      "settings": {
+        "head": "Color Picker",
+        "text": "W3Schools' famous color picker",
+        "color_piker_img": "shopify:\/\/shop_images\/colorpicker.png"
       }
     },
     "3a809167-eb53-4125-b911-a604345ac25e": {
@@ -351,67 +412,6 @@
       "settings": {
         "section_background_color": "#445958"
       }
-    },
-    "bb2f591b-d946-44ee-8d4a-9d4f13cdfaf5": {
-      "type": "news_letter_section",
-      "blocks": {
-        "47f9bd1d-cbb5-4555-8ada-b8203c6bb8fd": {
-          "type": "text",
-          "settings": {
-            "pro-plan_price": "$4.99\/month",
-            "pro-plan_name": "Pro",
-            "pro-plan_description": "For those running multiple spaces with more traffic.",
-            "pro-plan_button": "$4.99\/month",
-            "pro-plan_button_link": "shopify:\/\/pages\/information",
-            "proplan_navbar": "Browse W3Schools without ads",
-            "proplan_navbar_link": "",
-            "navbar": "Build static sites",
-            "navbar_link": ""
-          }
-        },
-        "c3e6f518-91d0-4821-9eba-0fbe01212fa9": {
-          "type": "text",
-          "settings": {
-            "pro-plan_price": "$12.99\/month",
-            "pro-plan_name": "Premium",
-            "pro-plan_description": "Build more sites and grow your online presence.",
-            "pro-plan_button": "$12.99\/month",
-            "pro-plan_button_link": "",
-            "proplan_navbar": "Browse W3Schools without ads",
-            "proplan_navbar_link": "",
-            "navbar": "1 space",
-            "navbar_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "47f9bd1d-cbb5-4555-8ada-b8203c6bb8fd",
-        "c3e6f518-91d0-4821-9eba-0fbe01212fa9"
-      ],
-      "settings": {
-        "head": "Start Free - upgrade later",
-        "Master": "Master new skills",
-        "peregraph": "Yearly (get 2 months for free)",
-        "button": "FREE",
-        "button_link": "shopify:\/\/blogs\/blog1",
-        "price": "$0\/year",
-        "name": "FREE",
-        "description": "For new web developers ready to create their first site.",
-        "footer_head": "Looking to add multiple users?",
-        "footer_text": "Read here for how to get in touch.",
-        "footer_text_link": "shopify:\/\/collections\/demo",
-        "agreementcontainer": "<p>By selecting a plan: Free, Pro, or Premium, you agree to W3Schools'<a href=\"https:\/\/www.w3schools.com\/about\/about_copyright.asp\" target=\"_blank\">Terms of Service<\/a>and<a href=\"https:\/\/www.w3schools.com\/about\/about_privacy.asp\" target=\"_blank\">Privacy Policy<\/a><\/p>",
-        "copyright_text": "<p>© 1999 - 2022 <a href=\"\/blogs\/blogs\/blog2\" target=\"_blank\" title=\"A life less wasteful\">W3schools<\/a>. All rights reserved. <a href=\"\/blogs\/details\" target=\"_blank\" title=\"details\">Cookie policy<\/a>, <a href=\"\/products\/brussel-sprouts\" target=\"_blank\" title=\"Brussel Sprouts\">Privacy<\/a> and <a href=\"\/products\/demo-wolf\" target=\"_blank\" title=\"Demo Product Title\">Terms<\/a>.<\/p>",
-        "copy_text": "<p>Reporting abusive content help us keep Spaces safe. Help us by<a href=\"\/pages\/mission\" target=\"_blank\" title=\"Mission\">Reporting Abusei<\/a>f you find any.<\/p>"
-      }
-    },
-    "bd14ef96-c00a-48a8-a6d7-a2e3bbcdec39": {
-      "type": "color_picker_section",
-      "settings": {
-        "head": "Color Picker",
-        "text": "W3Schools' famous color picker",
-        "color_piker_img": "shopify:\/\/shop_images\/colorpicker.png"
-      }
     }
   },
   "order": [
@@ -423,9 +423,9 @@
     "ff978d12-c12f-43a9-a2ad-7d71f618b1e1",
     "e926691e-ef4a-4801-bc2f-33b82ff4c798",
     "29d0aa85-7727-4265-bb42-564cd44a0ccd",
-    "42611d1c-7905-4999-8516-6c406326ce4e",
-    "3a809167-eb53-4125-b911-a604345ac25e",
     "bb2f591b-d946-44ee-8d4a-9d4f13cdfaf5",
-    "bd14ef96-c00a-48a8-a6d7-a2e3bbcdec39"
+    "42611d1c-7905-4999-8516-6c406326ce4e",
+    "bd14ef96-c00a-48a8-a6d7-a2e3bbcdec39",
+    "3a809167-eb53-4125-b911-a604345ac25e"
   ]
 }

@@ -24,6 +24,9 @@
 .collumn_section {
     display: grid;
     grid-template-columns: 1fr;
+  margin-top: 30px;
 }
-  
+  .collumn h3 {
+    margin: 0;
+}
 }

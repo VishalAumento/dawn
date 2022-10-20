@@ -10,9 +10,8 @@
     margin: 0;
 }
 summary:after {
-    /* flex-shrink: 0; */
+   margin-right: 30px;
     content: "";
-    /* position: relative; */
     display: flex;
     margin-left: auto;
     transform-origin: center;

@@ -10,7 +10,7 @@
       <p>{{ block.settings.cart_text }}</p>
     </div>
     <div class="cart_button">
-     <a href="#"><p>{{ block.settings.cart_button }}</p></a>
+     <a href="{{ block.settings.cart_link }}"><p>{{ block.settings.cart_button }}</p></a>
     </div>
   </div>
   {% endfor %}
@@ -47,7 +47,18 @@
           "id": "cart_text",
           "label": "text",
           "default": "Quick links"
-        }
+        },
+        {
+          "type": "text",
+          "id": "cart_button",
+          "label": "text",
+          "default": "Quick links"
+        },
+        {
+        "type": "url",
+        "id": "cart_link",
+        "label": "Button link"
+      }
     ]
   }
  ],

@@ -454,8 +454,8 @@
         "5ce586cf-668c-4361-afe6-e8897fd75162": {
           "type": "heading",
           "settings": {
-            "accordion_head": "Quick links",
-            "accordion_text": "Welcome to my shop!"
+            "accordion_head": "Bootstrap",
+            "accordion_text": "Bootstrap is the world's most famous free CSS framework.\nYou can choose between the following versions:"
           }
         }
       },

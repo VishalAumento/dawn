@@ -4,7 +4,8 @@
   <div class="accordion">
      {%- for block in section.blocks -%}
     <details>
-      <summary>{{ block.settings.accordion_head }}</summary>
+      <summary>{{ block.settings.accordion_head }}
+      </summary>
       <p>{{ block.settings.accordion_text }}</p>
    </details>
     {% endfor %}

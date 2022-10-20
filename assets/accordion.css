@@ -9,3 +9,17 @@
     line-height: 22px;
     margin: 0;
 }
+details:after {
+    /* flex-shrink: 0; */
+    content: "";
+    /* position: relative; */
+    display: flex;
+    margin-left: auto;
+    transform-origin: center;
+    transform: rotate(45deg);
+    transition: all 0.3s ease-in-out;
+    width: 0.65em;
+    height: 0.65em;
+    border-bottom: 0.125rem solid #000;
+    border-right: 0.125rem solid #000;
+}

@@ -82,4 +82,7 @@
     padding: 19px 24px;
     margin-top: -40px;
 }
+  .login_button {
+    width: 100px;
+  }
 }

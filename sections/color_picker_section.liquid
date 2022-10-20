@@ -7,7 +7,9 @@
   <div class="color_text">
    <p>{{ section.settings.text }}</p>
   </div>
- 
+  <div class="color_img">
+    <img src="{{ section.settings.color_piker_img| img_url: 'master' }}">
+  </div>
 </div>
 
 
@@ -31,7 +33,12 @@
   "id": "text",
   "label": "text",
   "default": "Quick links"
-}
+  },
+  {
+  "type": "image_picker",
+  "id": "color_piker_img",
+  "label": "image"
+  }
   ],
   
   "presets": [

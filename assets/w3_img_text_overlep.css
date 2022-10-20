@@ -4,6 +4,7 @@
 .section {
     background: #282a35;
     margin-top: 51px;
+    margin-bottom: -29px;
 }
 .overlep_header {
     text-align: center;

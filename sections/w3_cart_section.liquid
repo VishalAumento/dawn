@@ -1,6 +1,6 @@
 {{ 'w3_cart_section.css' | asset_url | stylesheet_tag }}
 
-
+<div class="w3_cart">
 <div class="cart_section">
   {%- for block in section.blocks -%}
     <div class="cart section-{{ section.id }} block-{{ block.id }}">
@@ -23,7 +23,7 @@
   {% endfor %}
 </div>
 
-
+</div>
 
 
 

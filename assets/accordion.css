@@ -38,5 +38,5 @@ summary:after {
     border-bottom: 2px solid #000;
 }
 details[open] > summary {
-  background-color: #ccf;
+  transform: rotate(225deg);
 }

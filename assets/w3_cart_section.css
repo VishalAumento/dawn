@@ -6,3 +6,9 @@
     font-size: 15px;
     font-weight: 700;
 }
+.cart_button {
+    background: #000;
+    width: 200px;
+    border-radius: 25px;
+    text-align: center;
+}

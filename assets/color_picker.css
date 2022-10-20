@@ -16,3 +16,6 @@
     text-align: center;
     margin-top: 20px;
 }
+.color_img img:hover {
+    opacity: 0.66;
+}

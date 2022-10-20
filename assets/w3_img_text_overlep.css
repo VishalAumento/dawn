@@ -48,11 +48,12 @@
 .text p {
     color: #fff;
 }
-
 .bolder img {
     padding: 5px 0px;
 }
-
+.overlep.grid_index-2 .bolder img {
+    padding: 5px 0;
+}
 
 
 

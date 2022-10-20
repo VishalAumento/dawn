@@ -2,3 +2,10 @@
     color: #000;
     font-size: 30px;
 }
+.accordion p {
+    color: #000;
+    font-size: 19px;
+    max-width: 898px;
+    line-height: 22px;
+    margin: 0;
+}

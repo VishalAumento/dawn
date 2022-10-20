@@ -409,7 +409,8 @@
       "type": "color_picker_section",
       "settings": {
         "head": "Color Picker",
-        "text": "W3Schools' famous color picker"
+        "text": "W3Schools' famous color picker",
+        "color_piker_img": "shopify:\/\/shop_images\/colorpicker.png"
       }
     }
   },

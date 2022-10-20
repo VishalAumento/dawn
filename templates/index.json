@@ -351,11 +351,22 @@
             "cart_link": "shopify:\/\/products\/feature2",
             "background_color": "#ffc0c7"
           }
+        },
+        "5372dd4d-c998-4606-ae02-9243f8e3fcf1": {
+          "type": "heading",
+          "settings": {
+            "cart_head": "Quick links",
+            "cart_text": "Quick links",
+            "cart_button": "Quick links",
+            "cart_link": "",
+            "background_color": "#ffc0c7"
+          }
         }
       },
       "block_order": [
         "7eb9e345-fa64-48be-8a08-6239fb2d14a0",
-        "d1613d9c-2318-489f-ad3a-759735a3b86c"
+        "d1613d9c-2318-489f-ad3a-759735a3b86c",
+        "5372dd4d-c998-4606-ae02-9243f8e3fcf1"
       ],
       "settings": {
       }

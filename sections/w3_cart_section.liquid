@@ -13,13 +13,12 @@
        <a href="{{ block.settings.cart_link }}"><p>{{ block.settings.cart_button }}</p></a>
       </div>
     </div>
+   {% endfor %}
     {% style %}
       .section-{{ section.id }} {
         background:{{ block.settings.background_color }}
       }
     {% endstyle %}
-
-  {% endfor %}
 </div>
 
 

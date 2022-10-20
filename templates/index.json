@@ -361,12 +361,23 @@
             "cart_link": "",
             "background_color": "#cc5562"
           }
+        },
+        "fc161a50-03d2-4a38-81e9-dec5e0e6ef67": {
+          "type": "heading",
+          "settings": {
+            "cart_head": "C++",
+            "cart_text": "A programming language",
+            "cart_button": "Learn C++",
+            "cart_link": "shopify:\/\/pages\/information",
+            "background_color": "#d9eee1"
+          }
         }
       },
       "block_order": [
         "7eb9e345-fa64-48be-8a08-6239fb2d14a0",
         "d1613d9c-2318-489f-ad3a-759735a3b86c",
-        "5372dd4d-c998-4606-ae02-9243f8e3fcf1"
+        "5372dd4d-c998-4606-ae02-9243f8e3fcf1",
+        "fc161a50-03d2-4a38-81e9-dec5e0e6ef67"
       ],
       "settings": {
       }

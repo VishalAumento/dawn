@@ -29,4 +29,7 @@
   .collumn h3 {
     margin: 5px;
 }
+  .collumn_section {
+    grid-row-gap: 25px;
+}
 }

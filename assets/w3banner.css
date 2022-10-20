@@ -76,6 +76,9 @@
   .text_section {
     padding: 58px 30px;
 }
+  .text_section h2 {
+    font-size: 42px;
+}
 }
 @media only screen and (max-width:400px) {
 .start_button {

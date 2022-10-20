@@ -33,3 +33,6 @@ summary:after {
     background: #a8d9de;
     padding: 32px 0;
 }
+.accordion {
+    margin-bottom: 0;
+}

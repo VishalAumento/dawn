@@ -338,7 +338,8 @@
             "cart_head": "PHP",
             "cart_text": "A web server programming language",
             "cart_button": "Learn PHP",
-            "cart_link": "shopify:\/\/pages\/information"
+            "cart_link": "shopify:\/\/pages\/information",
+            "background_color": "#fff"
           }
         },
         "d1613d9c-2318-489f-ad3a-759735a3b86c": {
@@ -347,7 +348,8 @@
             "cart_head": "jQuery",
             "cart_text": "A JS library for developing web pages",
             "cart_button": "Learn jQuery",
-            "cart_link": "shopify:\/\/products\/feature2"
+            "cart_link": "shopify:\/\/products\/feature2",
+            "background_color": "#e22120"
           }
         }
       },
@@ -356,7 +358,6 @@
         "d1613d9c-2318-489f-ad3a-759735a3b86c"
       ],
       "settings": {
-        "background_color": "#ffc0c7"
       }
     }
   },

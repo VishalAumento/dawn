@@ -16,3 +16,6 @@
     color: #fff;
     font-size: 20px;
 }
+.cart_button a {
+    text-decoration: none;
+}

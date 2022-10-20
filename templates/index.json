@@ -336,7 +336,9 @@
           "type": "heading",
           "settings": {
             "cart_head": "PHP",
-            "cart_text": "A web server programming language"
+            "cart_text": "A web server programming language",
+            "cart_button": "Learn PHP",
+            "cart_link": "shopify:\/\/pages\/information"
           }
         }
       },

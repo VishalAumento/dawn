@@ -27,3 +27,7 @@
     text-align: center;
     width: 464px;
 }
+.cart_section {
+    display: flex;
+    justify-content: space-around;
+}

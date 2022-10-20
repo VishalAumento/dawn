@@ -1,8 +1,29 @@
+{{ 'color_piker_section.css' | asset_url | stylesheet_tag }}
+
+
+
+
+
+
+
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
-  }
+  "name": "color_piker_section",
+  "tag": "section",
+  "settings": [
+    
+  ],
+  
+  "presets": [
+     {
+       "name": "color_piker_section",
+       "settings": {
+          
+        }
+     }
+   ]
+}
 {% endschema %}
 
 {% stylesheet %}

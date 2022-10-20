@@ -2,11 +2,10 @@
 
 <div class="accordion_section">
    {%- for block in section.blocks -%}
-  <div class="accordion accordion--opened">
+  <div class="accordion">
     
     <details>
-      <summary>{{ block.settings.accordion_head }}
-      </summary>
+      <summary class="accordion--opened">{{ block.settings.accordion_head }}  </summary>
       <p>{{ block.settings.accordion_text }}</p>
    </details>
    

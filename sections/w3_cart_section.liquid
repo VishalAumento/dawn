@@ -16,7 +16,15 @@
   {% endfor %}
 </div>
 
+{% style %}
+  
+.section-{{ background-color }} {
 
+
+}
+  
+
+{% endstyle %}
 
 
 
@@ -29,7 +37,12 @@
   "name": "w3_cart_section",
   "tag": "section",
   "settings": [
- 
+   {
+  "type": "color",
+  "id": "body_text",
+  "label": "Body text",
+  "default": "#000000"
+}
   ],
   "blocks": [
     {

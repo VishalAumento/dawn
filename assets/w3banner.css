@@ -75,11 +75,12 @@
    .text_section h2 {
     font-size: 42px;
 }
-}
-@media only screen and (max-width:400px) {
-.start_button {
+  .start_button {
     width: 260px;
 }
+}
+@media only screen and (max-width:400px) {
+
 .text_section h2 {
     font-size: 39px;
     line-height: 45px;

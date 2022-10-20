@@ -1,6 +1,6 @@
 {{ 'w3_cart_section.css' | asset_url | stylesheet_tag }}
 
-<div class="w3_cart section-{{ section.id }}">
+<div class="w3_cart">
 <div class="cart_section">
   {%- for block in section.blocks -%}
     <div class="cart  block-{{ block.id }}">
@@ -25,12 +25,7 @@
 
 </div>
 
-    {% style %}
-     .section-{{ section.id }}
-        background:{{ section.settings.section_background_color }}
-      }
-    {% endstyle %}
- 
+  
 
 
 

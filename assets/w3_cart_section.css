@@ -22,10 +22,10 @@
     text-decoration: none;
 }
 .cart {
-    color: black;
+    color: #000;
     padding: 24px;
     text-align: center;
-    width: 464px;
+    width: 50%;
 }
 .cart_section {
     display: flex;

@@ -46,5 +46,12 @@
     grid-template-columns: 1fr;
    margin-left: 11px;
 }
+}
+@media only screen and (max-width: 300px)
+.cart_section {
+   margin-left: -1px;
+}
+
+
   
 }

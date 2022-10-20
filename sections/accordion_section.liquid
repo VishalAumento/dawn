@@ -1,14 +1,13 @@
 {{ 'accordion.css' | asset_url | stylesheet_tag }}
 
+
 <div class="accordion_section">
    {%- for block in section.blocks -%}
   <div class="accordion">
-    
     <details>
       <summary class="accordion--opened">{{ block.settings.accordion_head }}  </summary>
       <p>{{ block.settings.accordion_text }}</p>
    </details>
-   
   </div>
  {% endfor %}
 </div>

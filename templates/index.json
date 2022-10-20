@@ -412,6 +412,23 @@
         "copyright_text": "<p>© 1999 - 2022 <a href=\"\/blogs\/blogs\/blog2\" target=\"_blank\" title=\"A life less wasteful\">W3schools<\/a>. All rights reserved. <a href=\"\/blogs\/details\" target=\"_blank\" title=\"details\">Cookie policy<\/a>, <a href=\"\/products\/brussel-sprouts\" target=\"_blank\" title=\"Brussel Sprouts\">Privacy<\/a> and <a href=\"\/products\/demo-wolf\" target=\"_blank\" title=\"Demo Product Title\">Terms<\/a>.<\/p>",
         "copy_text": "<p>Reporting abusive content help us keep Spaces safe. Help us by<a href=\"\/pages\/mission\" target=\"_blank\" title=\"Mission\">Reporting Abusei<\/a>f you find any.<\/p>"
       }
+    },
+    "7699c155-fb2d-4bdb-8c73-0276f9e1e56a": {
+      "type": "accordion_section",
+      "blocks": {
+        "f034aa71-97e4-4208-87ed-024185dee11e": {
+          "type": "heading",
+          "settings": {
+            "accordion_head": "PHP",
+            "accordion_text": "PHP is a server scripting language, and a powerful tool for making dynamic and interactive Web pages.\nPHP is a widely-used, free, and efficient alternative to competitors such as Microsoft's ASP."
+          }
+        }
+      },
+      "block_order": [
+        "f034aa71-97e4-4208-87ed-024185dee11e"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -426,6 +443,7 @@
     "42611d1c-7905-4999-8516-6c406326ce4e",
     "bd14ef96-c00a-48a8-a6d7-a2e3bbcdec39",
     "3a809167-eb53-4125-b911-a604345ac25e",
-    "bb2f591b-d946-44ee-8d4a-9d4f13cdfaf5"
+    "bb2f591b-d946-44ee-8d4a-9d4f13cdfaf5",
+    "7699c155-fb2d-4bdb-8c73-0276f9e1e56a"
   ]
 }

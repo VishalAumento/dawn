@@ -1,10 +1,11 @@
 {{ 'w3_cart_section.css' | asset_url | stylesheet_tag }}
 
 <div class="cart_section">
-<div class="cart">
-
-</div>
-
+  <div class="cart">
+    <div class="cart_header">
+      <h3>{{ block.settings.cart_head }}</h3>
+    </div>
+  </div>
 </div>
 
 

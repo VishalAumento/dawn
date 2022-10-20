@@ -385,11 +385,11 @@
         "5109edcf-b308-4a4f-98fa-11c491a4f926": {
           "type": "heading",
           "settings": {
-            "cart_head": "Quick links",
-            "cart_text": "Quick links",
-            "cart_button": "Quick links",
-            "cart_link": "",
-            "background_color": "#fff"
+            "cart_head": "Bootstrap",
+            "cart_text": "A CSS framework for designing better web pages",
+            "cart_button": "Learn Bootstrap",
+            "cart_link": "shopify:\/\/products\/feature3",
+            "background_color": "#deb49a"
           }
         }
       },

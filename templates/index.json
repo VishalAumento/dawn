@@ -422,10 +422,50 @@
             "accordion_head": "PHP",
             "accordion_text": "PHP is a server scripting language, and a powerful tool for making dynamic and interactive Web pages.\nPHP is a widely-used, free, and efficient alternative to competitors such as Microsoft's ASP."
           }
+        },
+        "77bb7109-805a-4f5d-b1ff-1529a8acf9cf": {
+          "type": "heading",
+          "settings": {
+            "accordion_head": "jQuery",
+            "accordion_text": "jQuery is a JavaScript Library.\njQuery greatly simplifies JavaScript programming.\njQuery is easy to learn."
+          }
+        },
+        "c926ac80-9226-4a28-b8f8-25562a7e7678": {
+          "type": "heading",
+          "settings": {
+            "accordion_head": "Quick links",
+            "accordion_text": "Welcome to my shop!"
+          }
+        },
+        "286988e8-cfa8-4e77-8575-a360b8ee55f8": {
+          "type": "heading",
+          "settings": {
+            "accordion_head": "Quick links",
+            "accordion_text": "Welcome to my shop!"
+          }
+        },
+        "93daf165-275a-4e57-820e-adca721f1394": {
+          "type": "heading",
+          "settings": {
+            "accordion_head": "Quick links",
+            "accordion_text": "Welcome to my shop!"
+          }
+        },
+        "5ce586cf-668c-4361-afe6-e8897fd75162": {
+          "type": "heading",
+          "settings": {
+            "accordion_head": "Quick links",
+            "accordion_text": "Welcome to my shop!"
+          }
         }
       },
       "block_order": [
-        "f034aa71-97e4-4208-87ed-024185dee11e"
+        "f034aa71-97e4-4208-87ed-024185dee11e",
+        "77bb7109-805a-4f5d-b1ff-1529a8acf9cf",
+        "c926ac80-9226-4a28-b8f8-25562a7e7678",
+        "286988e8-cfa8-4e77-8575-a360b8ee55f8",
+        "93daf165-275a-4e57-820e-adca721f1394",
+        "5ce586cf-668c-4361-afe6-e8897fd75162"
       ],
       "settings": {
       }

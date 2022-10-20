@@ -37,6 +37,6 @@ summary:after {
     border-top: none;
     border-bottom: 2px solid #000;
 }
-details[open] > summary {
+details[open] > summary:after {
   transform: rotate(225deg);
 }

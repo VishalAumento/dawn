@@ -24,7 +24,7 @@
 }
 
 
-@media only screen and (max-width: 998px) {
+@media only screen and ( max-width: 998px) {
 .cart_section {
     display: grid;
     grid-template-columns: 1fr;

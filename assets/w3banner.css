@@ -98,4 +98,7 @@
   .start_button {
     padding-top: 9px;
 }
+  .start_button a {
+  font-size: 16px;
+}
 }

@@ -16,7 +16,7 @@
 .collumn_section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-row-gap: 60px;
+    grid-row-gap: 43px;
 }
 
 
@@ -25,4 +25,5 @@
     display: grid;
     grid-template-columns: 1fr;
 }
+  
 }

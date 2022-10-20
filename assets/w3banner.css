@@ -69,7 +69,11 @@
     padding-top: 3px;
 }
 
-
+@media only screen and (max-width:768px) {
+    .banner {
+    padding: 50px 0 0px;
+  }
+}
 @media only screen and (max-width:400px) {
 .start_button {
     width: 201px;
@@ -85,9 +89,7 @@
   .login_button {
     width: 100px;
   }
-  .banner {
-    padding: 50px 0 0px;
-  }
+
   .text_section h3 {
     font-size: 18px;
     line-height: 29px;

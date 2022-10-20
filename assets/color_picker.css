@@ -20,10 +20,9 @@
     opacity: 0.66;
 }
 .color_piker {
-    padding: 71px 30px;
+    padding: 120px 30px;
+    background: #F3ECEA;
 }
-
-
 @media only screen and (max-width:400px) {
 .color_head h3 {
     font-size: 51px;

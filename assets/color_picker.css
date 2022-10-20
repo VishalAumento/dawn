@@ -22,3 +22,14 @@
 .color_piker {
     padding: 71px 0px;
 }
+
+
+
+
+.w3_cart {
+    background: #282a35;
+    padding: 50px 40px;
+}
+.cart_section {
+    grid-template-columns: 1fr;
+}

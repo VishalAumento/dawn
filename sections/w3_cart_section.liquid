@@ -1,4 +1,4 @@
-
+{{ 'w3_cart_section.css' | asset_url | stylesheet_tag }}
 
 
 
@@ -12,9 +12,21 @@
 
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
-  }
+  "name": "w3_cart_section",
+  "tag": "section",
+  "settings": [
+    
+  ],
+  
+  "presets": [
+     {
+       "name": "w3_cart_section",
+       "settings": {
+          
+        }
+     }
+   ]
+}
 {% endschema %}
 
 {% stylesheet %}

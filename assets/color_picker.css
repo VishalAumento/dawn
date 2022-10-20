@@ -24,8 +24,7 @@
 }
 
 
-
-@media screen and (max-width:998px) {
+@media only screen and (max-width: 998px) {
 .w3_cart {
     background: #282a35;
     padding: 50px 40px;

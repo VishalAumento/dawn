@@ -54,6 +54,10 @@
 .overlep.grid_index-2 .bolder img {
     padding: 5px 0;
 }
+.img_text {
+    max-width: 200px;
+    margin-right: -50px;
+}
 
 
 

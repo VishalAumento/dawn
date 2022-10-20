@@ -1,6 +1,7 @@
 {{ 'w3_cart_section.css' | asset_url | stylesheet_tag }}
 
 <div class="cart_section">
+  {%- for block in section.blocks -%}
   <div class="cart">
     <div class="cart_header">
       <h3>{{ block.settings.cart_head }}</h3>
@@ -9,6 +10,7 @@
       <p>{{ block.settings.cart_text }}</p>
     </div>
   </div>
+  {% endfor %}
 </div>
 
 

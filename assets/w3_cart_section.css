@@ -39,3 +39,10 @@
     background: #282a35;
     padding: 50px 0px;
 }
+
+@media only screen and ( max-width: 998px) {
+.cart_section {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+}

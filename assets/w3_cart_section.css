@@ -44,5 +44,7 @@
 .cart_section {
     display: grid;
     grid-template-columns: 1fr;
+    margin-left: 47px;
 }
+  
 }

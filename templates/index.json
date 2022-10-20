@@ -328,6 +328,13 @@
         "copyright_text": "<p>© 1999 - 2022 <a href=\"\/blogs\/blogs\/blog2\" target=\"_blank\" title=\"A life less wasteful\">W3schools<\/a>. All rights reserved. <a href=\"\/blogs\/details\" target=\"_blank\" title=\"details\">Cookie policy<\/a>, <a href=\"\/products\/brussel-sprouts\" target=\"_blank\" title=\"Brussel Sprouts\">Privacy<\/a> and <a href=\"\/products\/demo-wolf\" target=\"_blank\" title=\"Demo Product Title\">Terms<\/a>.<\/p>",
         "copy_text": "<p>Reporting abusive content help us keep Spaces safe. Help us by<a href=\"\/pages\/mission\" target=\"_blank\" title=\"Mission\">Reporting Abusei<\/a>f you find any.<\/p>"
       }
+    },
+    "3a809167-eb53-4125-b911-a604345ac25e": {
+      "type": "w3_cart_section",
+      "settings": {
+        "cart_head": "PHP",
+        "cart_text": "A web server programming language"
+      }
     }
   },
   "order": [
@@ -340,6 +347,7 @@
     "e926691e-ef4a-4801-bc2f-33b82ff4c798",
     "29d0aa85-7727-4265-bb42-564cd44a0ccd",
     "42611d1c-7905-4999-8516-6c406326ce4e",
-    "bb2f591b-d946-44ee-8d4a-9d4f13cdfaf5"
+    "bb2f591b-d946-44ee-8d4a-9d4f13cdfaf5",
+    "3a809167-eb53-4125-b911-a604345ac25e"
   ]
 }

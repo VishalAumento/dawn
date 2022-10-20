@@ -331,9 +331,19 @@
     },
     "3a809167-eb53-4125-b911-a604345ac25e": {
       "type": "w3_cart_section",
+      "blocks": {
+        "7eb9e345-fa64-48be-8a08-6239fb2d14a0": {
+          "type": "heading",
+          "settings": {
+            "cart_head": "PHP",
+            "cart_text": "A web server programming language"
+          }
+        }
+      },
+      "block_order": [
+        "7eb9e345-fa64-48be-8a08-6239fb2d14a0"
+      ],
       "settings": {
-        "cart_head": "PHP",
-        "cart_text": "A web server programming language"
       }
     }
   },

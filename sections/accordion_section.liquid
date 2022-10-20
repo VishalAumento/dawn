@@ -1,7 +1,7 @@
 {{ 'accordion.css' | asset_url | stylesheet_tag }}
 
-
-<div class="accordion_section">
+<div class="accordion_detales">
+  <div class="accordion_section">
    {%- for block in section.blocks -%}
   <div class="accordion">
     <details>
@@ -11,6 +11,8 @@
   </div>
  {% endfor %}
 </div>
+</div>
+
 
 
 

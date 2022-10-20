@@ -26,3 +26,7 @@ summary:after {
     max-width: 1024px;
     margin: 0 auto;
 }
+
+.accordion {
+    padding: 14px 0px;
+}

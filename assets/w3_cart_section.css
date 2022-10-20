@@ -19,3 +19,10 @@
 .cart_button a {
     text-decoration: none;
 }
+.cart {
+    color: black;
+    background-color: #FFC0C7;
+    padding: 24px;
+    text-align: center;
+    width: 464px;
+}

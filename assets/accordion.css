@@ -34,5 +34,5 @@ summary:after {
     padding: 32px 0;
 }
 .accordion {
-    border-top: 0;
+    border-top: none;
 }

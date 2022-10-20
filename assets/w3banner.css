@@ -72,7 +72,7 @@
 
 @media only screen and (max-width:400px) {
 .start_button {
-    width: 248px;
+    width: 201px;
 }
 .text_section h2 {
     font-size: 39px;
@@ -94,5 +94,8 @@
 }
   .text_section p {
     font-size: 15px;
+}
+  .start_button {
+    padding-top: 9px;
 }
 }

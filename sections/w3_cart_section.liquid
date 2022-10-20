@@ -14,24 +14,25 @@
        <a href="{{ block.settings.cart_link }}"><p>{{ block.settings.cart_button }}</p></a>
       </div>
     </div>
-   
+    {% style %}
+     .block-{{ block.id }} {
+        background:{{ block.settings.background_color }}
+      }
+    {% endstyle %}
 
   {% endfor %}
 </div>
 
 </div>
 
-  
- 
-
- {% style %}
-     .block-{{ block.id }} {
-        background:{{ block.settings.background_color }}
-      }
-    .section-{{ section.id }}
+    {% style %}
+     .section-{{ section.id }}
         background:{{ section.settings.section_background_color }}
       }
     {% endstyle %}
+ 
+
+
 
 
 {% schema %}

@@ -1,8 +1,11 @@
 {{ 'color_piker_section.css' | asset_url | stylesheet_tag }}
 
 <div class="color_piker">
-  <div class="color">
-   
+  <div class="color_head">
+   <h3>{{ section.settings.head}}</h3>
+  </div>
+  <div class="color_text">
+   <p>{{ section.settings.text }}</p>
   </div>
  
 </div>

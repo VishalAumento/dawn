@@ -42,7 +42,7 @@ details[open] > summary svg.w-6.h-6.minus {
 
 
 @media screen and (max-width: 400px) {
-  .accordion_detales {
+.accordion_detales {
     padding: -9px 0;
 }
 }

@@ -14,6 +14,9 @@
 svg.w-6.h-6.pluse {
     display: none;
 }
+svg.w-6.h-6.minus {
+    display: block;
+}
 /* summary:after {
    margin-right: 30px;
     content: "";
@@ -45,5 +48,7 @@ svg.w-6.h-6.pluse {
 details[open] > summary  svg.w-6.h-6.pluse {
     display: block;
 }
- 
+details[open] > summary svg.w-6.h-6.minus {
+    display: none;
+}
 }

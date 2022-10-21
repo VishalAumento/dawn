@@ -11,6 +11,9 @@
     line-height: 22px;
     margin: 0;
 }
+svg.w-6.h-6.pluse {
+    display: none;
+}
 /* summary:after {
    margin-right: 30px;
     content: "";
@@ -40,5 +43,5 @@
     border-bottom: 2px solid #000;
 }
 details[open] > summary {
-  transform: rotate(225deg);
+ 
 }

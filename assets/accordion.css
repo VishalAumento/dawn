@@ -39,4 +39,6 @@ details[open] > summary  svg.w-6.h-6.plus {
 details[open] > summary svg.w-6.h-6.minus {
     display: none;
 }
-
+.accordion.grid_index-6 {
+    border-bottom: none;
+}

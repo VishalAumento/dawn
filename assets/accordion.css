@@ -17,19 +17,6 @@ svg.w-6.h-6.plus {
 svg.w-6.h-6.minus {
     display: block;
 }
-/* summary:after {
-   margin-right: 30px;
-    content: "";
-    display: flex;
-    margin-left: auto;
-    transform-origin: center;
-  transform: rotate(91deg);
-    transition: all .3s ease-in-out;
-    width: 0.65em;
-    height: 0.65em;
-    border-left: 2px solid;
-
-} */
 .accordion_section {
     max-width: 1024px;
     margin: 0 auto;

@@ -20,6 +20,7 @@ svg.w-6.h-6.minus {
 .accordion_section {
     max-width: 1024px;
     margin: 0 auto;
+   padding: 30px;
 }
 .accordion {
     padding: 14px 0px;

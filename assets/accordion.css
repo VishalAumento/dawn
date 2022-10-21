@@ -27,7 +27,7 @@ svg.w-6.h-6.minus {
 }
 .accordion_detales {
     background: #a8d9de;
-    padding: 32px 0;
+    padding: -1px 0;
 }
 .accordion_detales .accordion {
     border-top: none;
@@ -40,9 +40,3 @@ details[open] > summary svg.w-6.h-6.minus {
     display: none;
 }
 
-
-@media screen and (max-width: 400px) {
-.accordion_detales {
-    padding: -9px 0;
-}
-}

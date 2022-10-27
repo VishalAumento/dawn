@@ -577,6 +577,6 @@ footer details[open] summary ~ * {
    font-family: Source Sans Pro;
   border: none;
 }
-svg.w-6.h-6.aerrow {
+/* svg.w-6.h-6.aerrow {
     width: 24px;
-}
+} */

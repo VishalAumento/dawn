@@ -23,8 +23,8 @@
     margin: 0 auto;
 }
 .text p {
-    font-size: 18px;
-    text-align: center;
+    color: #fff;
+    line-height: 20px;
 }
 .bolder img {
   padding: 30px 0px;
@@ -39,9 +39,7 @@
 .overlep {
     display: flex;
 }
-.text p {
-    color: #fff;
-}
+
 .bolder img {
     padding: 5px 0px;
 }

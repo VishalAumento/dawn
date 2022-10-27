@@ -558,7 +558,7 @@ footer details[open] summary ~ * {
 
 
 
-
+=======================mycss========================
 
 
 #myBtn {
@@ -576,4 +576,7 @@ footer details[open] summary ~ * {
     border-radius: 26px;
    font-family: Source Sans Pro;
   border: none;
+}
+svg.w-6.h-6.aerrow {
+    width: 24px;
 }

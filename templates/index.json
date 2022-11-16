@@ -469,6 +469,96 @@
         "copyright_text": "<p>© 1999 - 2022 <a href=\"\/blogs\/blogs\/blog2\" target=\"_blank\" title=\"A life less wasteful\">W3schools<\/a>. All rights reserved. <a href=\"\/blogs\/details\" target=\"_blank\" title=\"details\">Cookie policy<\/a>, <a href=\"\/products\/brussel-sprouts\" target=\"_blank\" title=\"Brussel Sprouts\">Privacy<\/a> and <a href=\"\/products\/demo-wolf\" target=\"_blank\" title=\"Demo Product Title\">Terms<\/a>.<\/p>",
         "copy_text": "<p>Reporting abusive content help us keep Spaces safe. Help us by<a href=\"\/pages\/mission\" target=\"_blank\" title=\"Mission\">Reporting Abusei<\/a>f you find any.<\/p>"
       }
+    },
+    "2b7302ce-d490-4ac7-a8a3-1b41e7e8b6d5": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "collection": "",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_vendor": false
+      }
+    },
+    "e1275973-a5d0-4ebf-bdb2-7c20a348f786": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14122558816352__e1275973-a5d0-4ebf-bdb2-7c20a348f786-1668605176bc5d98ba-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "medium"
+          }
+        },
+        "template--14122558816352__e1275973-a5d0-4ebf-bdb2-7c20a348f786-1668605176bc5d98ba-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--14122558816352__e1275973-a5d0-4ebf-bdb2-7c20a348f786-1668605176bc5d98ba-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14122558816352__e1275973-a5d0-4ebf-bdb2-7c20a348f786-1668605176bc5d98ba-0",
+        "template--14122558816352__e1275973-a5d0-4ebf-bdb2-7c20a348f786-1668605176bc5d98ba-1",
+        "template--14122558816352__e1275973-a5d0-4ebf-bdb2-7c20a348f786-1668605176bc5d98ba-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "c4c99ce5-8ddf-4991-8b0e-eb775583d0f7": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--14122558816352__c4c99ce5-8ddf-4991-8b0e-eb775583d0f7-1668605189af5e99de-0": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "template--14122558816352__c4c99ce5-8ddf-4991-8b0e-eb775583d0f7-1668605189af5e99de-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "template--14122558816352__c4c99ce5-8ddf-4991-8b0e-eb775583d0f7-1668605189af5e99de-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14122558816352__c4c99ce5-8ddf-4991-8b0e-eb775583d0f7-1668605189af5e99de-0",
+        "template--14122558816352__c4c99ce5-8ddf-4991-8b0e-eb775583d0f7-1668605189af5e99de-1",
+        "template--14122558816352__c4c99ce5-8ddf-4991-8b0e-eb775583d0f7-1668605189af5e99de-2"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
     }
   },
   "order": [
@@ -484,6 +574,9 @@
     "bd14ef96-c00a-48a8-a6d7-a2e3bbcdec39",
     "3a809167-eb53-4125-b911-a604345ac25e",
     "7699c155-fb2d-4bdb-8c73-0276f9e1e56a",
-    "bb2f591b-d946-44ee-8d4a-9d4f13cdfaf5"
+    "bb2f591b-d946-44ee-8d4a-9d4f13cdfaf5",
+    "2b7302ce-d490-4ac7-a8a3-1b41e7e8b6d5",
+    "e1275973-a5d0-4ebf-bdb2-7c20a348f786",
+    "c4c99ce5-8ddf-4991-8b0e-eb775583d0f7"
   ]
 }

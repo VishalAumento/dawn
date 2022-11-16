@@ -42,10 +42,26 @@
               "heading": "Quick links",
               "menu": "test-grishma"
             }
+          },
+          "4a7828e6-8aa4-493a-9944-634bfc0a24a9": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          },
+          "4f5f9546-d4f3-4484-87ae-ee9310276672": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer-menu-col"
+            }
           }
         },
         "block_order": [
-          "footer-0"
+          "footer-0",
+          "4a7828e6-8aa4-493a-9944-634bfc0a24a9",
+          "4f5f9546-d4f3-4484-87ae-ee9310276672"
         ],
         "settings": {
           "color_scheme": "background-1",
